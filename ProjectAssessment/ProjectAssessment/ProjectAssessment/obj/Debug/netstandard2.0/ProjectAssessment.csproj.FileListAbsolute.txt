@@ -1,0 +1,13 @@
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.csprojAssemblyReference.cache
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.deps.json
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.dll
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.pdb
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.AssemblyInfoInputs.cache
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.AssemblyInfo.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.dll
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.pdb
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\CreateAnAccount.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs

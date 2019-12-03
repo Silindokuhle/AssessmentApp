@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectAssessment.Views.MainPage"
+             Title="{Binding Title}"
+             BackgroundImage="background">
+    
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Location Confidante"
+                   TextColor="White"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="50"/>
+
+        <Frame CornerRadius="50"
+               IsClippedToBounds="true"
+               HorizontalOptions="Center"
+               WidthRequest="50"
+               HeightRequest="50"
+               >
+        <Image Source="final"
+               Scale="1."/>
+        </Frame>
+
+        <Button Text="LOGIN" Command="{Binding LoginCommand}"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                     Margin="30"/>
+
+
+
+        <Button Text="Create an account" Command="{Binding CreateanaccountCommand}"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Margin="30"/>
+       
+        
+
+
+
+    </StackLayout>
+</ContentPage>
