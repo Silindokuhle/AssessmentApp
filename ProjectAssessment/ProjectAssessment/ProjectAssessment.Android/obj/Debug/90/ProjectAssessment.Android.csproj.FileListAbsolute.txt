@@ -486,3 +486,4 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\download.jpg

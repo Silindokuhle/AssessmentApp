@@ -1,4 +1,3 @@
-C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.csprojAssemblyReference.cache
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.deps.json
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.dll
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\bin\Debug\netstandard2.0\ProjectAssessment.pdb
@@ -11,3 +10,9 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\o
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.pdb
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\CreateAnAccount.xaml.g.cs
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\ProjectAssessment.csprojAssemblyReference.cache
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\MasterDetail.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\Circle.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\Locations.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\PanicAlert.xaml.g.cs
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs

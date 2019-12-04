@@ -22,25 +22,44 @@
                    FontSize="Large"
                    Margin="20,40,10,0.8"
                    FontAttributes="Bold"
-                   HorizontalTextAlignment="Start"
-                    />
-            <Image Source="backgrouund" />
-
-
-
+                   HorizontalTextAlignment="Start"  />
+                  
         </FlexLayout>
+        
         <Entry Placeholder="Name" Text="{Binding Name}"
+               PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
-                  />
+                  Margin="50,0"/>
+
+        <Entry Placeholder="Username" Text="{Binding}"
+                PlaceholderColor="WhiteSmoke"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="White" 
+                Margin="50,0"/>
+        
+        <Entry Placeholder="Cellphone Number" Text="{Binding}"
+                PlaceholderColor="WhiteSmoke"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="White" 
+                Margin="50,0"/>
+        
 
         <Entry Placeholder="Email" Text="{Binding Email}"
+               PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
-                   TextColor="White" />
+                   TextColor="White" 
+               Margin="50,0"/>
+        
+        <Entry Placeholder=" Create password" Text="{Binding Password}"
+               PlaceholderColor="WhiteSmoke"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="White" 
+               Margin="50,0"/>
         
 
         <Button Text="Create account" Command="{Binding Createaccount}"
-                    Margin="100"/>
+                    Margin="50,80,80,0"/>
      
 
 

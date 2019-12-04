@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="http://prismlibrary.com"
+                  prism:ViewModelLocator.AutowireViewModel="True"
+                  x:Class="ProjectAssessment.Views.MasterDetail">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout Padding="20">
+                <FlexLayout>
+                    <Image Source="download">
+                        
+                    </Image>
+                </FlexLayout>
+                <!-- TODO: // Update the Layout and add some real menu items  -->
+                <Button Text="Profile" Command="{Binding ProfileCommand}" CommandParameter="Profile" />
+                <Button Text="Locations" Command="{Binding NavigateCommand}" CommandParameter="Locations"/>
+                <Button Text="My Circle" Command="{Binding NavigateCommand}" CommandParameter="MyCircle"/>
+                <Button Text="Send Alert" Command="{Binding NavigateCommand}" CommandParameter="SendAlert"/>
+                <Button Text="Exit" Command="{Binding NavigateCommand}" CommandParameter="Exit"/>
+
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+</MasterDetailPage>

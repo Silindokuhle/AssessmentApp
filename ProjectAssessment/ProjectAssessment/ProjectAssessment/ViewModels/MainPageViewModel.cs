@@ -34,8 +34,7 @@ namespace ProjectAssessment.ViewModels
         }
 
 
-        public MainPageViewModel(INavigationService navigationService)
-            : base(navigationService)
+        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Main Page";
         }

@@ -23,15 +23,22 @@ namespace ProjectAssessment
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("MasterDetail/NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+
             containerRegistry.RegisterForNavigation<CreateAnAccount, CreateAnAccountViewModel>();
             containerRegistry.RegisterForNavigation<Login, LoginViewModel>();
+
+            containerRegistry.RegisterForNavigation<MasterDetail, MasterDetailViewModel>();
+            containerRegistry.RegisterForNavigation<Profile, ProfileViewModel>();
+            containerRegistry.RegisterForNavigation<Locations, LocationsViewModel>();
+            containerRegistry.RegisterForNavigation<Circle, CircleViewModel>();
+            containerRegistry.RegisterForNavigation<PanicAlert, PanicAlertViewModel>();
         }
     }
 }

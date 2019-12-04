@@ -3,6 +3,44 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="ProjectAssessment.Views.Login">
-  
-</ContentPage>
+             x:Class="ProjectAssessment.Views.Login"
+             BackgroundImage="background">
+    
+    <StackLayout>
+        <FlexLayout>
+
+            <Frame CornerRadius="50"
+               IsClippedToBounds="true"
+               HorizontalOptions="Start"
+               WidthRequest="100"
+               HeightRequest="100">
+            </Frame>
+
+        <Label Text="Location Confidante"
+                   TextColor="White"
+                   FontSize="Large"
+                   Margin="20,40,10,0.8"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Start"
+                    />
+        </FlexLayout>
+
+        <Entry Placeholder="Username" Text="{Binding}"
+                PlaceholderColor="WhiteSmoke"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="White" 
+                Margin="50,60"/>
+
+        <Entry Placeholder=" Password" Text="{Binding Password}"
+               PlaceholderColor="WhiteSmoke"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="White" 
+               Margin="50,0"/>
+        
+        <Button Text="Login" Command="{Binding LoginCommand}"
+                    Margin="50,80,80,0"/>
+
+
+
+    </StackLayout>
+</ContentPage> 
