@@ -17,7 +17,7 @@
                HeightRequest="100">
             </Frame>
 
-            <Label Text="Location Confidante"
+            <Label Text="LOCATION  ALERT"
                    TextColor="White"
                    FontSize="Large"
                    Margin="20,40,10,0.8"
@@ -58,7 +58,7 @@
                Margin="50,0"/>
         
 
-        <Button Text="Create account" Command="{Binding Createaccount}"
+        <Button Text="Create account" Command="{Binding CreateaccountCommand}"
                     Margin="50,80,80,0"/>
      
 

@@ -117,6 +117,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AWSSDK": {
+              "target": "Package",
+              "version": "[2.3.55.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -130,6 +134,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[3.6.0.344457, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [

@@ -13,12 +13,63 @@
                         
                     </Image>
                 </FlexLayout>
+                
+                <FlexLayout>
+                    <Image Source="profile" />
+                    <Button Text="Profile"  Command="{Binding Profile}"
+                            BackgroundColor="Transparent"                       
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="ViewA"/>
+                </FlexLayout>
                 <!-- TODO: // Update the Layout and add some real menu items  -->
-                <Button Text="Profile" Command="{Binding ProfileCommand}" CommandParameter="Profile" />
-                <Button Text="Locations" Command="{Binding NavigateCommand}" CommandParameter="Locations"/>
-                <Button Text="My Circle" Command="{Binding NavigateCommand}" CommandParameter="MyCircle"/>
-                <Button Text="Send Alert" Command="{Binding NavigateCommand}" CommandParameter="SendAlert"/>
-                <Button Text="Exit" Command="{Binding NavigateCommand}" CommandParameter="Exit"/>
+                
+                <FlexLayout>
+                    <Image Source="location" />
+                    <Button Text="Locations"  Command="{Binding Locations}"
+                            BackgroundColor="Transparent"                  
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="ViewA"/>
+                </FlexLayout>
+
+                <FlexLayout>
+                    <Image Source="family" />
+
+                    <Button Text="My Circle" Command="{Binding MyCircle}"
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="ViewA"/>
+                </FlexLayout>
+
+                <FlexLayout>
+                    <Image Source="siren" />
+
+                    <Button Text="Send Alert" Command="{Binding SendAlertCommand}"
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="ViewA"/>
+                </FlexLayout>
+
+                <FlexLayout>
+                    <Image Source="cancel"
+                          />
+
+                    <Button Text="Exit"  Command="{Binding Exit}"
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="ViewA"/>
+                </FlexLayout>
+
+
 
             </StackLayout>
         </ContentPage>

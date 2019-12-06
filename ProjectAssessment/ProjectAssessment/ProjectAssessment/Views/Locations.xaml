@@ -4,5 +4,49 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.Locations">
-  
+    <StackLayout>
+        <FlexLayout>
+            <Image Source="location"
+                   HorizontalOptions="Center"
+                   Margin="40,20,0,0"/>
+
+            <Label Text="Locations"
+                   TextColor="Black"
+                   HorizontalOptions="Center" 
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   Margin="40,20,0,0"/>
+        </FlexLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <Entry Placeholder="Home"
+                   HorizontalOptions="Start"
+                   Grid.Row="1"/>
+           
+
+            <Label Text="Work"
+                   HorizontalOptions="Start"
+                   Grid.Row="2"/>
+
+            <Label Text="Frequently visited"
+                   HorizontalOptions="Start"
+                   Grid.Row="3"/>
+
+
+
+
+
+
+
+
+
+        </Grid>
+    </StackLayout>
 </ContentPage>

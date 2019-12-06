@@ -1,5 +1,8 @@
 ﻿using Prism;
 using Prism.Ioc;
+using ProjectAssessment.Models;
+using ProjectAssessment.Services;
+using ProjectAssessment.Services.Interfaces;
 using ProjectAssessment.ViewModels;
 using ProjectAssessment.Views;
 using Xamarin.Forms;
@@ -28,6 +31,10 @@ namespace ProjectAssessment
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<IFakeSecurityService, FakeSecurityService>();
+
+            containerRegistry.RegisterSingleton<IDatabase, SafetyDatabase>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
 
@@ -39,6 +46,7 @@ namespace ProjectAssessment
             containerRegistry.RegisterForNavigation<Locations, LocationsViewModel>();
             containerRegistry.RegisterForNavigation<Circle, CircleViewModel>();
             containerRegistry.RegisterForNavigation<PanicAlert, PanicAlertViewModel>();
+            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
         }
     }
 }

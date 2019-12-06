@@ -7,7 +7,7 @@
     
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Location Confidante"
+        <Label Text="LOCATION  ALERT"
                    TextColor="White"
                    FontSize="30"
                    FontAttributes="Bold"

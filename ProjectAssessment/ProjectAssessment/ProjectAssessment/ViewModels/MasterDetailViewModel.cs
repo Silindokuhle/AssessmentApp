@@ -10,13 +10,13 @@ namespace ProjectAssessment.ViewModels
 {
     public class MasterDetailViewModel : ViewModelBase
     {
-        private IDatabase _database;
+        private SafetyDatabase _database;
         public INavigationService NavigationService;
 
         //Button that leads you to the profile page
-        private DelegateCommand _profileCommand;
-        public DelegateCommand ProfileCommand =>
-            _profileCommand ?? (_profileCommand = new DelegateCommand(ExecuteProfileCommand));
+        private DelegateCommand _profile;
+        public DelegateCommand Profile =>
+            _profile ?? (_profile = new DelegateCommand(ExecuteProfile));
 
         // button that leads you to the location page
         private DelegateCommand _locations;
@@ -29,9 +29,9 @@ namespace ProjectAssessment.ViewModels
             _myCircle ?? (_myCircle = new DelegateCommand(ExecuteMyCircle));
 
         // button that leads you to the location page
-        private DelegateCommand _sendAlert;
-        public DelegateCommand SendAlert =>
-            _sendAlert ?? (_sendAlert = new DelegateCommand(ExecuteSendAlert));
+        private DelegateCommand _sendAlertCommand;
+        public DelegateCommand SendAlertCommand =>
+            _sendAlertCommand ?? (_sendAlertCommand = new DelegateCommand(ExecuteSendAlertCommand));
 
         // button that leads you to the location page
         private DelegateCommand _exit;
@@ -50,7 +50,7 @@ namespace ProjectAssessment.ViewModels
 
         }
 
-        public async void ExecuteSendAlert()
+        public async void ExecuteSendAlertCommand()
         {
             await NavigationService.NavigateAsync("PanicAlert");
 
@@ -71,7 +71,8 @@ namespace ProjectAssessment.ViewModels
         }
 
 
-        public async void ExecuteProfileCommand()
+
+        public async void ExecuteProfile()
         {
             await NavigationService.NavigateAsync("Profile");
         }
