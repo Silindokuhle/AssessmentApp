@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
     <ProjectView>ShowAllFiles</ProjectView>
-    <SelectedDevice>pixel_2_pie_9_0_api_28</SelectedDevice>
+    <SelectedDevice>HUAWEI MAR-LX2</SelectedDevice>
     <DefaultDevice>pixel_2_pie_9_0_api_28</DefaultDevice>
   </PropertyGroup>
 </Project>

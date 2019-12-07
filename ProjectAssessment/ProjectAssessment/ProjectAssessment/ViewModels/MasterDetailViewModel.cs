@@ -1,17 +1,29 @@
 ﻿using Prism.Commands;
+using Prism.Events;
 using Prism.Mvvm;
 using Prism.Navigation;
+using ProjectAssessment.Model.Security;
 using ProjectAssessment.Services.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace ProjectAssessment.ViewModels
 {
     public class MasterDetailViewModel : ViewModelBase
     {
-        private SafetyDatabase _database;
-        public INavigationService NavigationService;
+        private ISecurityService _securityService;
+        private IEventAggregator _eventAggregator;
+
+        private ObservableCollection<MenuItem> _menuItems;
+
+        public ObservableCollection<MenuItem> MenuItems
+        {
+            get { return _menuItems; }
+            set { SetProperty(ref _menuItems, value); }
+        }
+
 
         //Button that leads you to the profile page
         private DelegateCommand _profile;
@@ -38,9 +50,11 @@ namespace ProjectAssessment.ViewModels
         public DelegateCommand Exit =>
             _exit ?? (_exit = new DelegateCommand(ExecuteExit));
 
-        public MasterDetailViewModel(INavigationService navigationService) : base(navigationService)
+        public MasterDetailViewModel(INavigationService navigationService, IDatabase database, ISecurityService securityService) : base(navigationService)
         {
-
+            _securityService = securityService;
+            
+           // _eventAggregator = eventAggregator;
         }
 
 

@@ -9,7 +9,7 @@ namespace ProjectAssessment.Services.Interfaces
 {
     public interface IMapping 
     {
-        Location GetNewLocation();
+       // Location GetNewLocation();
 
     }
 }

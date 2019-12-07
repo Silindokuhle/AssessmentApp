@@ -4,7 +4,7 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.Login"
-             BackgroundImage="background">
+             >
     
     <StackLayout>
         <FlexLayout>
@@ -17,7 +17,7 @@
             </Frame>
 
         <Label Text="LOCATION  ALERT"
-                   TextColor="White"
+                   TextColor="MediumPurple"
                    FontSize="Large"
                    Margin="20,40,10,0.8"
                    FontAttributes="Bold"
@@ -26,16 +26,17 @@
         </FlexLayout>
 
         <Entry Placeholder="Username" Text="{Binding}"
-                PlaceholderColor="WhiteSmoke"
+                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
-                   TextColor="White" 
+                   TextColor="Black" 
                 Margin="50,60"/>
 
         <Entry Placeholder=" Password" Text="{Binding Password}"
-               PlaceholderColor="WhiteSmoke"
+               PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
-                   TextColor="White" 
+                   TextColor="Black" 
                Margin="50,0"/>
+        
         <Button Text="Forgot Password?" Command="{Binding ForgotPasswordCommand}"
                 BackgroundColor="Transparent"
                 Margin="40,20"/>

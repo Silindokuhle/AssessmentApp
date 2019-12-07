@@ -2,18 +2,20 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   xmlns:prism="http://prismlibrary.com"
+                  xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+                  xmlns:converters="clr-namespace:ProjectAssessment.Converters"
                   prism:ViewModelLocator.AutowireViewModel="True"
                   x:Class="ProjectAssessment.Views.MasterDetail">
-
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout Padding="20">
+
                 <FlexLayout>
                     <Image Source="download">
-                        
+
                     </Image>
                 </FlexLayout>
-                
+
                 <FlexLayout>
                     <Image Source="profile" />
                     <Button Text="Profile"  Command="{Binding Profile}"
@@ -21,9 +23,8 @@
                             HorizontalOptions="Center"
                             FontSize="Default"
                             FontAttributes="Bold"
-                            CommandParameter="ViewA"/>
+                            CommandParameter="Navigation/Profile"/>
                 </FlexLayout>
-                <!-- TODO: // Update the Layout and add some real menu items  -->
                 
                 <FlexLayout>
                     <Image Source="location" />
@@ -32,20 +33,10 @@
                             HorizontalOptions="Center"
                             FontSize="Default"
                             FontAttributes="Bold"
-                            CommandParameter="ViewA"/>
+                            CommandParameter="Navigation/Locations"/>
                 </FlexLayout>
 
-                <FlexLayout>
-                    <Image Source="family" />
-
-                    <Button Text="My Circle" Command="{Binding MyCircle}"
-                            BackgroundColor="Transparent"
-                            HorizontalOptions="Center"
-                            FontSize="Default"
-                            FontAttributes="Bold"
-                            CommandParameter="ViewA"/>
-                </FlexLayout>
-
+               
                 <FlexLayout>
                     <Image Source="siren" />
 
@@ -54,25 +45,26 @@
                             HorizontalOptions="Center"
                             FontSize="Default"
                             FontAttributes="Bold"
-                            CommandParameter="ViewA"/>
+                            CommandParameter="Navigation/PanicAlert"/>
                 </FlexLayout>
 
                 <FlexLayout>
-                    <Image Source="cancel"
-                          />
+                    <Image Source="cancel"/>
 
-                    <Button Text="Exit"  Command="{Binding Exit}"
+
+                    <Button Text="Logout"  Command="{Binding Exit}"
                             BackgroundColor="Transparent"
                             HorizontalOptions="Center"
                             FontSize="Default"
                             FontAttributes="Bold"
-                            CommandParameter="ViewA"/>
+                            CommandParameter="Navigation/MainPage"/>
+
                 </FlexLayout>
-
-
-
-            </StackLayout>
-        </ContentPage>
-    </MasterDetailPage.Master>
-    
+                
+                 </StackLayout>
+             </ContentPage>
+        </MasterDetailPage.Master>
 </MasterDetailPage>
+
+
+           

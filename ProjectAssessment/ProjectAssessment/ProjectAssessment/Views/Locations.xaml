@@ -4,10 +4,20 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.Locations">
-    <StackLayout>
+   
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    <!--<StackLayout>--><!--
         <FlexLayout>
             <Image Source="location"
-                   HorizontalOptions="Center"
+                   --><!--HorizontalOptions="Center"--><!--
                    Margin="40,20,0,0"/>
 
             <Label Text="Locations"
@@ -28,16 +38,16 @@
 
             <Entry Placeholder="Home"
                    HorizontalOptions="Start"
-                   Grid.Row="1"/>
+                   Grid.Row="1"/>-->
            
 
-            <Label Text="Work"
+            <!--<Label Text="Work"
                    HorizontalOptions="Start"
                    Grid.Row="2"/>
 
             <Label Text="Frequently visited"
                    HorizontalOptions="Start"
-                   Grid.Row="3"/>
+                   Grid.Row="3"/>-->
 
 
 
@@ -47,6 +57,6 @@
 
 
 
-        </Grid>
-    </StackLayout>
+        <!--</Grid>
+    </StackLayout>-->
 </ContentPage>

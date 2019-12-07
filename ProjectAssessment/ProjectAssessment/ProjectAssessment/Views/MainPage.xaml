@@ -2,39 +2,43 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectAssessment.Views.MainPage"
-             Title="{Binding Title}"
-             BackgroundImage="background">
+             Title="{Binding Title}">
     
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="LOCATION  ALERT"
-                   TextColor="White"
+        
+        <Label Text="Location Alert"
+                   TextColor="MediumPurple"
                    FontSize="30"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
-                   Margin="50"/>
+                Margin=" 0,0,0,0" />
 
-        <Frame CornerRadius="50"
+        <Image Source="iconL" BackgroundColor="Transparent"
+               HorizontalOptions="Center"
+               Margin="0,0,0,0" />
+        
+       
+        <!--<Frame CornerRadius="50"
                IsClippedToBounds="true"
                HorizontalOptions="Center"
                WidthRequest="50"
                HeightRequest="50"
-               >
-        <!--<Image Source="final"
-               Scale="1."/>-->
-        </Frame>
+               >-->
+           
+        <!--</Frame>-->
 
         <Button Text="LOGIN" Command="{Binding LoginCommand}"
                     FontSize="Medium"
                     FontAttributes="Bold"
-                     Margin="30"/>
+                    />
 
 
 
         <Button Text="Create an account" Command="{Binding CreateanaccountCommand}"
                     FontSize="Medium"
                     FontAttributes="Bold"
-                    Margin="30"/>
+                   />
        
         
 

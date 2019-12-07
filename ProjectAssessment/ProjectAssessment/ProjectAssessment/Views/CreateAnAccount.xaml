@@ -26,39 +26,39 @@
                   
         </FlexLayout>
         
-        <Entry Placeholder="Name" Text="{Binding Name}"
+        <Entry Placeholder="Name" Text="{Binding UserInfo.Name}"
                PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
                   Margin="50,0"/>
 
-        <Entry Placeholder="Username" Text="{Binding}"
+        <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
                 PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
                 Margin="50,0"/>
-        
-        <Entry Placeholder="Cellphone Number" Text="{Binding}"
+
+        <Entry Placeholder="Cellphone Number" Text="{Binding UserInfo.Cellphonenumber}"
                 PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
                 Margin="50,0"/>
-        
 
-        <Entry Placeholder="Email" Text="{Binding Email}"
+
+        <Entry Placeholder="Email" Text="{Binding UserInfo.Email}"
                PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
                Margin="50,0"/>
-        
-        <Entry Placeholder=" Create password" Text="{Binding Password}"
+
+        <Entry Placeholder=" Create password" Text="{Binding UserInfo.Password}"
                PlaceholderColor="WhiteSmoke"
                HorizontalOptions="StartAndExpand"
                    TextColor="White" 
                Margin="50,0"/>
-        
 
-        <Button Text="Create account" Command="{Binding CreateaccountCommand}"
+
+        <Button Text="Create account" Command="{Binding UserInfo.CreateaccountCommand}"
                     Margin="50,80,80,0"/>
      
 

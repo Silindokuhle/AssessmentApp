@@ -13,7 +13,7 @@ namespace ProjectAssessment.ViewModels
 {
     public class CreateAnAccountViewModel : ViewModelBase
     {
-        private Services.Interfaces.SafetyDatabase _database;
+        private Services.Interfaces.IDatabase _database;
         //public INavigationService NavigationService;
 
         private DelegateCommand _createaccountCommand;
@@ -57,9 +57,13 @@ namespace ProjectAssessment.ViewModels
                 await NavigationService.NavigateAsync("HomePage");
             }
         }
-        public CreateAnAccountViewModel(INavigationService navigationService) : base(navigationService)
+        public CreateAnAccountViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService) : base(navigationService)
         {
+            _database = database;
+            var stuff = new User();
+            UserInfo = stuff;
 
+            _dialogService = pageDialogService;
         }
     }
     

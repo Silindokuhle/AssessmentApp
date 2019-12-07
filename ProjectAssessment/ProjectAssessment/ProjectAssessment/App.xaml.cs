@@ -1,6 +1,5 @@
 ﻿using Prism;
 using Prism.Ioc;
-using ProjectAssessment.Models;
 using ProjectAssessment.Services;
 using ProjectAssessment.Services.Interfaces;
 using ProjectAssessment.ViewModels;
@@ -22,7 +21,7 @@ namespace ProjectAssessment
 
         public App(IPlatformInitializer initializer) : base(initializer) { }
 
-        protected override async void OnInitialized()
+        protected override async void OnInitialized() 
         {
             InitializeComponent();
 
@@ -31,7 +30,7 @@ namespace ProjectAssessment
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterSingleton<IFakeSecurityService, FakeSecurityService>();
+            containerRegistry.RegisterSingleton<ISecurityService, FakeSecurityService>();
 
             containerRegistry.RegisterSingleton<IDatabase, SafetyDatabase>();
 

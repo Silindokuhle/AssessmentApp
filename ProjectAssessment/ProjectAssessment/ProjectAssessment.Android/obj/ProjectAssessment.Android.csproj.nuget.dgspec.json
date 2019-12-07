@@ -72,7 +72,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.3.0.991221, )"
             }
           }
         }
@@ -117,10 +117,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "AWSSDK": {
-              "target": "Package",
-              "version": "[2.3.55.2, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -133,7 +129,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.3.0.991221, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

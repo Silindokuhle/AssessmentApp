@@ -10,16 +10,11 @@ using ProjectAssessment.Enums.Security;
 
 namespace ProjectAssessment.Services.Interfaces
 {
-    public interface FakeSecurityService : IFakeSecurityService
+    public class FakeSecurityService : ISecurityService
     {
-        IList<MenuItem> GetAllowedAccessItems();
-        bool LogIn(string Username, string Password);
-        void LogOut();
-    }
-        /*private IEventAggregator _eventAggregator;
-            public IList<MenuItem> _allMenuItems;
-            public bool LoggedIn { get; set; }
-        
+        private IEventAggregator _eventAggregator;
+        public IList<MenuItem> _allMenuItems;
+        public bool LoggedIn { get; set; }
 
         public FakeSecurityService(IEventAggregator eventAggregator)
         {
@@ -27,7 +22,8 @@ namespace ProjectAssessment.Services.Interfaces
 
             _eventAggregator = eventAggregator;
         }
-        public IList<MenuItem> GetAllowedAccessItem()
+
+        public IList<MenuItem> GetAllowedAccessItems()
         {
             if (LoggedIn)
             {
@@ -42,6 +38,7 @@ namespace ProjectAssessment.Services.Interfaces
                 return accessItems.OrderBy(x => x.MenuOrder).ToList();
 
             }
+
             else
             {
                 var accessItems = new List<MenuItem>();
@@ -56,21 +53,25 @@ namespace ProjectAssessment.Services.Interfaces
                 return accessItems.OrderBy(x => x.MenuOrder).ToList();
             }
         }
-        public bool LogIn(string userName, string password)
-        {
 
-            // Do Your Stuff to Check if Legit (ie API Calls)
 
-            LoggedIn = true;
+            public bool LogIn(string userName, string password)
+            {
 
-            return true;
-        }
-        public void LogOut()
-        {
-            LoggedIn = false;
+                // Do Your Stuff to Check if Legit (ie API Calls)
 
-            _eventAggregator.GetEvent<LogOutMessage>().Publish();
-        }
+                LoggedIn = true;
+
+                return true;
+            }
+            public void LogOut()
+            {
+                LoggedIn = false;
+
+                _eventAggregator.GetEvent<LogOutMessage>().Publish();
+            }
+        
+
         private void CreateMenuItems()
         {
             _allMenuItems = new List<MenuItem>();
@@ -100,7 +101,7 @@ namespace ProjectAssessment.Services.Interfaces
             menuItem.MenuItemName = "Maps View";
             menuItem.NavigationPath = "NavigationPage/MapsView";
             menuItem.MenuOrder = 3;
-            menuItem.MenuType = MenuTypeEnum.Secured;
+            menuItem.MenuType = MenuTypeEnum.UnSecured;
             menuItem.ImageName = "map.png";
 
             _allMenuItems.Add(menuItem);
@@ -110,10 +111,11 @@ namespace ProjectAssessment.Services.Interfaces
             menuItem.MenuItemName = "Other View";
             menuItem.NavigationPath = "NavigationPage/OtherView";
             menuItem.MenuOrder = 4;
-            menuItem.MenuType = MenuTypeEnum.Secured;
+            menuItem.MenuType = MenuTypeEnum.UnSecured;
             menuItem.ImageName = "other.png";
 
-            _allMenuItems.Add(menuItem); */
-        
+            _allMenuItems.Add(menuItem); 
+        }
     }
+}
 

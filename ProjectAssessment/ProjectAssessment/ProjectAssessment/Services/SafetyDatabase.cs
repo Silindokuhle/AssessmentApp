@@ -1,7 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using ProjectAssessment.Model;
-using ProjectAssessment.Models;
+
 using ProjectAssessment.Services.Interfaces;
 using SQLite;
 using System;
@@ -32,7 +32,7 @@ namespace ProjectAssessment.Services
             return database.Table<User>().ToListAsync();
         }
 
-        public async Task<User> GetUserByName(string userName)
+        public async Task<User> GetUserByUserName(string userName)
         {
             return await database.Table<User>().Where(x => x.Username == userName).FirstOrDefaultAsync();
         }
@@ -64,5 +64,10 @@ namespace ProjectAssessment.Services
         {
             return database.Table<User>().Where(x => x.Posted == false).ToListAsync();
         }
+
+        //public Task<User> GetUserByUserName(string userName)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

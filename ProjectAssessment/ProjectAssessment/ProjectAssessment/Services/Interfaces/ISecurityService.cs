@@ -7,7 +7,7 @@ using ProjectAssessment.Model.Security;
 
 namespace ProjectAssessment.Services.Interfaces
 {
-    public interface IFakeSecurityService
+    public interface ISecurityService
     {
         IList<MenuItem> GetAllowedAccessItems();
         bool LogIn(string userName, string password);

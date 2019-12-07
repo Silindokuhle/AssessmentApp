@@ -17,7 +17,7 @@ namespace ProjectAssessment.ViewModels
     public class LoginViewModel : ViewModelBase
     {
 
-        private SafetyDatabase _database;
+        private IDatabase _database;
 
         private User _userInfo;
         private User UserInfo
@@ -42,7 +42,7 @@ namespace ProjectAssessment.ViewModels
         private IPageDialogService _dialogService;
         public User Access { get; set; }
 
-        public LoginViewModel(INavigationService navigationService, SafetyDatabase database, IPageDialogService pageDialogService) : base(navigationService)
+        public LoginViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService) : base(navigationService)
         {
             //securityService = securityService;
             //eventAggregator = eventAggregator;
@@ -61,18 +61,24 @@ namespace ProjectAssessment.ViewModels
             var knownUser = await _database.GetUserByUserName(UserInfo.Username);
 
             var Infor = UserInfo;
-
-            if (knownUser is null)
-                await _dialogService.DisplayAlertAsync("Alert", "Username unknown!", "ok");
-            else
             if (Infor.Username == null)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Username is required!", "ok");
             }
-            else if (Infor.Password == null)
+
+            else
+            if (Infor.Password == null)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Password is required!", "ok");
             }
+
+            else
+            if (knownUser is null)
+            {
+                await _dialogService.DisplayAlertAsync("Alert", "Username unknown!", "ok");
+
+            }
+           
             else
             {
                 if (knownUser.Password == UserInfo.Password)
