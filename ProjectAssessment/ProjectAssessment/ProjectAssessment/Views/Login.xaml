@@ -25,13 +25,13 @@
                     />
         </FlexLayout>
 
-        <Entry Placeholder="Username" Text="{Binding}"
+        <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
                 PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                 Margin="50,60"/>
 
-        <Entry Placeholder=" Password" Text="{Binding Password}"
+        <Entry Placeholder=" Password" Text="{Binding UserInfo.Password}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 

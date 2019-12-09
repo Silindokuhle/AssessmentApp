@@ -547,3 +547,10 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\android\src\md51558244f76c53b6aeda52c8a337f2c37\StructuredItemsViewAdapter_2.java
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\android\src\md51558244f76c53b6aeda52c8a337f2c37\StructuredItemsViewRenderer_3.java
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\android\src\md5423e3a95c357eb7d6aad61b4f54abbd4\RecyclerViewScrollListener_2.java
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\femalep.png
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\panicbutton.jpg
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\help.jpg
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\pp.png
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\user.png
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\pin.png
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\locationlogo.png

@@ -15,6 +15,8 @@ namespace ProjectAssessment.ViewModels
     {
         private ISecurityService _securityService;
         private IEventAggregator _eventAggregator;
+        //public INavigationService NavigationService;
+
 
         private ObservableCollection<MenuItem> _menuItems;
 
@@ -88,7 +90,7 @@ namespace ProjectAssessment.ViewModels
 
         public async void ExecuteProfile()
         {
-            await NavigationService.NavigateAsync("Profile");
+            await NavigationService.NavigateAsync("profile");
         }
 
     }

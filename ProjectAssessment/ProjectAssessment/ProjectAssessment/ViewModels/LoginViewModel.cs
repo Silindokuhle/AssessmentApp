@@ -19,12 +19,14 @@ namespace ProjectAssessment.ViewModels
 
         private IDatabase _database;
 
-        private User _userInfo;
-        private User UserInfo
-        {
-            get { return _userInfo; }
-            set { SetProperty(ref _userInfo, value); }
-        }
+        //private User _userInfo;
+        //private User UserInfo
+        //{
+        //    get { return _userInfo; }
+        //    set { SetProperty(ref _userInfo, value); }
+        //}
+
+        public User UserInfo { get; set; }
 
 
         //private ISecurityService _securityService;
@@ -48,6 +50,9 @@ namespace ProjectAssessment.ViewModels
             //eventAggregator = eventAggregator;
             _database = database;
             _dialogService = pageDialogService;
+
+            var loginInfor = new User();
+            UserInfo = loginInfor;
         }
 
         public override void Initialize(INavigationParameters parameters)
@@ -60,40 +65,35 @@ namespace ProjectAssessment.ViewModels
         {
             var knownUser = await _database.GetUserByUserName(UserInfo.Username);
 
-            var Infor = UserInfo;
-            if (Infor.Username == null)
+            //var Infor = UserInfo;
+            if (UserInfo.Username == null)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Username is required!", "ok");
-            }
-
-            else
-            if (Infor.Password == null)
+            }else if (UserInfo.Password == null)
             {
-                await _dialogService.DisplayAlertAsync("Alert", "Password is required!", "ok");
-            }
-
-            else
-            if (knownUser is null)
+                await _dialogService.DisplayAlertAsync("Alert", "Username is required!", "ok");
+            }else if (UserInfo.Password != knownUser.Password || UserInfo.Username != knownUser.Username)
             {
-                await _dialogService.DisplayAlertAsync("Alert", "Username unknown!", "ok");
-
+                await _dialogService.DisplayAlertAsync("Alert", "Wrong Username or Password, Please Try again!", "ok");
             }
-           
-            else
+             else
             {
                 if (knownUser.Password == UserInfo.Password)
                 {
                     PasswExist = true;
-                    await NavigationService.NavigateAsync("HomePage");
+                    await NavigationService.NavigateAsync("Profile");
                     return;
                 }
                 else
+                {
                     PasswExist = false;
+                }
+                if (PasswExist == false)
+                {
+                    await _dialogService.DisplayAlertAsync("ALERT!", "Incorrect password, please try again", "ok");
+                }
             }
-            if (PasswExist == false)
-            {
-                await _dialogService.DisplayAlertAsync("ALERT!", "Incorrect password, please try again", "ok");
-            }
+            
 
 
 

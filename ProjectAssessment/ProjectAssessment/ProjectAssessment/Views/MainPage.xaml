@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectAssessment.Views.MainPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundColor="White">
+  
     
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
@@ -15,16 +17,17 @@
                 Margin=" 0,0,0,0" />
 
         <Image Source="iconL" BackgroundColor="Transparent"
-               HorizontalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"
                Margin="0,0,0,0" />
         
-       
+        
         <!--<Frame CornerRadius="50"
                IsClippedToBounds="true"
                HorizontalOptions="Center"
                WidthRequest="50"
                HeightRequest="50"
-               >-->
+               >--> 
            
         <!--</Frame>-->
 

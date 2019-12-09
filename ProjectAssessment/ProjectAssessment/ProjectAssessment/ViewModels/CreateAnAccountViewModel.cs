@@ -13,48 +13,51 @@ namespace ProjectAssessment.ViewModels
 {
     public class CreateAnAccountViewModel : ViewModelBase
     {
-        private Services.Interfaces.IDatabase _database;
+        private IDatabase _database;
+         public User UserInfo { get; set; }
         //public INavigationService NavigationService;
 
-        private DelegateCommand _createaccountCommand;
-        public DelegateCommand CreateaccountCommand =>
-            _createaccountCommand ?? (_createaccountCommand = new DelegateCommand(ExecuteCreateaccountCommand));
+        private DelegateCommand<User> _createaccountCommand;
+        public DelegateCommand<User> CreateaccountCommand =>
+            _createaccountCommand ?? (_createaccountCommand = new DelegateCommand<User>(ExecuteCreateaccountCommand));
 
 
-        private User _userInfo;
-        public User UserInfo
-        {
-            get { return _userInfo; }
-            set { SetProperty(ref _userInfo, value); }
-        }
+        //private User _userInfo;
+        //public User UserInfo
+        //{
+        //    get { return _userInfo; }
+        //    set { SetProperty(ref _userInfo, value); }
+        //}
 
         private IPageDialogService _dialogService;
 
 
-        public async void ExecuteCreateaccountCommand()
+        public async void ExecuteCreateaccountCommand(User user)
         {
-            if (UserInfo.Name == null)
+            var userLogged = await _database.GetUserByUserName(UserInfo.Username);
+
+            if (UserInfo.Name == null || UserInfo.Surname == null)
             {
-                await _dialogService.DisplayAlertAsync("ALERT!", "Name is required", "ok");
+                await _dialogService.DisplayAlertAsync("ALERT!", "Name or Surname is required", "ok");
             }
-            else if (UserInfo.Surname == null)
-            {
-                await _dialogService.DisplayAlertAsync("ALERT!", "Surname is required", "ok");
-            }
+            //else if ()
+            //{
+            //    await _dialogService.DisplayAlertAsync("ALERT!", "Surname is required", "ok");
+            //}
             else if (UserInfo.Email == null)
             {
                 await _dialogService.DisplayAlertAsync("ALERT!", "email is required", "ok");
             }
-            else if (UserInfo.CellphoneNumber == null)
-            {
-                await _dialogService.DisplayAlertAsync("ALERT!", "cellphone number is required", "ok");
-            }
+            //else if (UserInfo.CellphoneNumber == null)
+            //{
+            //    await _dialogService.DisplayAlertAsync("ALERT!", "cellphone number is required", "ok");
+           // }
 
             else
             {
-                var conn = new Services.SafetyDatabase();
+                var conn = new SafetyDatabase();
                 await conn.SaveItemAsync(UserInfo);
-                await NavigationService.NavigateAsync("HomePage");
+                await NavigationService.NavigateAsync("Login");
             }
         }
         public CreateAnAccountViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService) : base(navigationService)

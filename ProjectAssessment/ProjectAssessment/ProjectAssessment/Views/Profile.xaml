@@ -3,8 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="ProjectAssessment.Views.Profile">
-    <FlexLayout>
+             x:Class="ProjectAssessment.Views.Profile"
+             BackgroundColor="White">
+    <StackLayout>
+        <FlexLayout>
+
+
+            <Image Source="pin" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   Margin="50,50,0,0"
+                   BackgroundColor="Transparent"
+              />
+            <Label Text="HI" />
+            
+        </FlexLayout>
         
-    </FlexLayout>
+        <!--<TabbedPage.ItemsSource>
+                <x:Array Type="{x:Type local:NamedColor}">
+                    <local:NamedColor Name="Red" Color="Red" />
+                    <local:NamedColor Name="Green" Color="Green" />
+                    <local:NamedColor Name="Blue" Color="Blue" />
+                    <local:NamedColor Name="Yellow" Color="Yellow" />
+                </x:Array>
+            </TabbedPage.ItemsSource>-->
+
+        
+    </StackLayout>
 </ContentPage>

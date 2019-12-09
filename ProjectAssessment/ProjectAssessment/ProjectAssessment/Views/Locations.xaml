@@ -4,16 +4,29 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.Locations">
+
    
-    
-  
-    
-    
-    
-    
-    
-    
-    
+        <StackLayout>
+        <FlexLayout>
+            <Image Source="locationLogo"/>
+            <Label Text=" MY LOCATIONS"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="50"
+                   TextColor="Black"/>
+
+
+
+        </FlexLayout>
+            
+    </StackLayout>
+
+
+
+
+
+
+
+
     <!--<StackLayout>--><!--
         <FlexLayout>
             <Image Source="location"

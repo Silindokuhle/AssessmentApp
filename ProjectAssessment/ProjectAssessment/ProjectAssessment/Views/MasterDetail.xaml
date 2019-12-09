@@ -5,7 +5,8 @@
                   xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
                   xmlns:converters="clr-namespace:ProjectAssessment.Converters"
                   prism:ViewModelLocator.AutowireViewModel="True"
-                  x:Class="ProjectAssessment.Views.MasterDetail">
+                  x:Class="ProjectAssessment.Views.MasterDetail"
+                  BackgroundColor="White">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout Padding="20">
