@@ -9,22 +9,38 @@
         <StackLayout>
         <FlexLayout>
             <Image Source="locationLogo"/>
-            <Label Text=" MY LOCATIONS"
+            <Label Text="       MY  LOCATIONS"   
                    HorizontalOptions="CenterAndExpand"
                    FontSize="50"
                    TextColor="Black"/>
-
-
-
         </FlexLayout>
             
+        <FlexLayout>
+            <Image Source="homeicon"/>
+            <Label Text="    Home"
+                    Margin="0,20,0,0"/>
+        </FlexLayout>
+        <FlexLayout>
+
+            <Image Source="work"/>
+        <Label Text="    Work"
+                    Margin="0,20,0,0"/>
+        </FlexLayout>
+            
+        <FlexLayout>
+
+            <Image Source="box"/>
+            <Label Text="    Other"
+                    Margin="0,20,0,0"/>
+        </FlexLayout>
+
     </StackLayout>
 
 
 
 
 
-
+ 
 
 
     <!--<StackLayout>--><!--

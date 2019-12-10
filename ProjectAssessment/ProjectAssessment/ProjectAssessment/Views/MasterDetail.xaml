@@ -7,14 +7,18 @@
                   prism:ViewModelLocator.AutowireViewModel="True"
                   x:Class="ProjectAssessment.Views.MasterDetail"
                   BackgroundColor="White">
+    
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <StackLayout Padding="20">
 
                 <FlexLayout>
-                    <Image Source="download">
+                    <Image Source="masterD"
+                           BackgroundColor="Transparent"
+                           HorizontalOptions="CenterAndExpand"
+                           Margin="40,0,0,0"/>
 
-                    </Image>
+
                 </FlexLayout>
 
                 <FlexLayout>
@@ -37,12 +41,22 @@
                             CommandParameter="Navigation/Locations"/>
                 </FlexLayout>
 
-               
+
                 <FlexLayout>
                     <Image Source="siren" />
 
                     <Button Text="Send Alert" Command="{Binding SendAlertCommand}"
                             BackgroundColor="Transparent"
+                            HorizontalOptions="Center"
+                            FontSize="Default"
+                            FontAttributes="Bold"
+                            CommandParameter="Navigation/PanicAlert"/>
+                </FlexLayout>
+                
+                <FlexLayout>
+                    <Image Source="about"/>
+                    <Button Text="About" Command="{Binding AboutCommand}"
+                             BackgroundColor="Transparent"
                             HorizontalOptions="Center"
                             FontSize="Default"
                             FontAttributes="Bold"

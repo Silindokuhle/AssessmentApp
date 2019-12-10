@@ -15,7 +15,7 @@ namespace ProjectAssessment.ViewModels
     {
         private ISecurityService _securityService;
         private IEventAggregator _eventAggregator;
-        //public INavigationService NavigationService;
+       // private INavigationService NavigationService;
 
 
         private ObservableCollection<MenuItem> _menuItems;
@@ -37,16 +37,17 @@ namespace ProjectAssessment.ViewModels
         public DelegateCommand Locations =>
             _locations ?? (_locations = new DelegateCommand(ExecuteLocations));
 
-        // button that leads you to the location page
-        private DelegateCommand _myCircle;
-        public DelegateCommand MyCircle =>
-            _myCircle ?? (_myCircle = new DelegateCommand(ExecuteMyCircle));
+       
 
         // button that leads you to the location page
         private DelegateCommand _sendAlertCommand;
         public DelegateCommand SendAlertCommand =>
             _sendAlertCommand ?? (_sendAlertCommand = new DelegateCommand(ExecuteSendAlertCommand));
+        private DelegateCommand _about;
+        public DelegateCommand About =>
+            _about ?? (_about = new DelegateCommand(ExecuteAbout));
 
+      
         // button that leads you to the location page
         private DelegateCommand _exit;
         public DelegateCommand Exit =>
@@ -59,30 +60,32 @@ namespace ProjectAssessment.ViewModels
            // _eventAggregator = eventAggregator;
         }
 
+        public async void ExecuteAbout()
+        {
+            await NavigationService.NavigateAsync("NavigationPage/About");
+        }
+
+
 
         public async void ExecuteExit()
         {
-            await NavigationService.NavigateAsync("MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/MainPage");
 
         }
 
         public async void ExecuteSendAlertCommand()
         {
-            await NavigationService.NavigateAsync("PanicAlert");
+            await NavigationService.NavigateAsync("NavigationPage/PanicAlert");
 
         }
 
 
 
-        public async void ExecuteMyCircle()
-        {
-            await NavigationService.NavigateAsync("Circle");
-
-        }
+       
 
         public async void ExecuteLocations()
         {
-            await NavigationService.NavigateAsync("Locations");
+            await NavigationService.NavigateAsync("NavigationPage/Locations");
 
         }
 
@@ -90,7 +93,7 @@ namespace ProjectAssessment.ViewModels
 
         public async void ExecuteProfile()
         {
-            await NavigationService.NavigateAsync("profile");
+            await NavigationService.NavigateAsync("NavigationPage/Profile");
         }
 
     }

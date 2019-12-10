@@ -18,6 +18,8 @@ namespace ProjectAssessment.ViewModels
     {
 
         private IDatabase _database;
+        private IUserProfile _userProfile;
+       // private IUserProfile userProfile;
 
         //private User _userInfo;
         //private User UserInfo
@@ -44,11 +46,12 @@ namespace ProjectAssessment.ViewModels
         private IPageDialogService _dialogService;
         public User Access { get; set; }
 
-        public LoginViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService) : base(navigationService)
+        public LoginViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService, IUserProfile userProfile) : base(navigationService)
         {
             //securityService = securityService;
             //eventAggregator = eventAggregator;
             _database = database;
+            _userProfile = userProfile;
             _dialogService = pageDialogService;
 
             var loginInfor = new User();
@@ -81,6 +84,7 @@ namespace ProjectAssessment.ViewModels
                 if (knownUser.Password == UserInfo.Password)
                 {
                     PasswExist = true;
+                    _userProfile.SetLoggedinUser(knownUser);
                     await NavigationService.NavigateAsync("Profile");
                     return;
                 }

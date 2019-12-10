@@ -1,10 +1,13 @@
-﻿using System;
+﻿using ProjectAssessment.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ProjectAssessment.Services.Interfaces
 {
-    interface IUserProfile
+    public interface IUserProfile
     {
+        void SetLoggedinUser(User user);
+        User GetLoggedInUser();
     }
 }

@@ -25,18 +25,26 @@
                     />
         </FlexLayout>
 
-        <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
+        <FlexLayout>
+            <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
                 PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                 Margin="50,60"/>
-
+            <Image Source="username"
+                   Margin="100,0"/>
+        </FlexLayout>
+            
+        <FlexLayout>
         <Entry Placeholder=" Password" Text="{Binding UserInfo.Password}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                Margin="50,0"/>
-        
+            <Image Source="lock"
+                    Margin="100,0"/>
+
+        </FlexLayout>
         <Button Text="Forgot Password?" Command="{Binding ForgotPasswordCommand}"
                 BackgroundColor="Transparent"
                 Margin="40,20"/>

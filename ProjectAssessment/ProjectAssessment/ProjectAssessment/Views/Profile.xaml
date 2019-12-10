@@ -7,26 +7,26 @@
              BackgroundColor="White">
     <StackLayout>
         <FlexLayout>
-
-
-            <Image Source="pin" HorizontalOptions="CenterAndExpand"
+            <Image Source="locProfile" HorizontalOptions="CenterAndExpand"
                    VerticalOptions="CenterAndExpand"
                    Margin="50,50,0,0"
-                   BackgroundColor="Transparent"
-              />
-            <Label Text="HI" />
-            
+                   BackgroundColor="Transparent"/>
+
+            <!--<Label Text="PROFILE"
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                    Margin="-20,80,0,0"/>-->
+
+
+
         </FlexLayout>
         
-        <!--<TabbedPage.ItemsSource>
-                <x:Array Type="{x:Type local:NamedColor}">
-                    <local:NamedColor Name="Red" Color="Red" />
-                    <local:NamedColor Name="Green" Color="Green" />
-                    <local:NamedColor Name="Blue" Color="Blue" />
-                    <local:NamedColor Name="Yellow" Color="Yellow" />
-                </x:Array>
-            </TabbedPage.ItemsSource>-->
 
-        
+            
+
+
+       
     </StackLayout>
 </ContentPage>
