@@ -29,7 +29,8 @@ namespace ProjectAssessment.ViewModels
 
         public async void ExecuteLoginCommand()
         {
-            await NavigationService.NavigateAsync("Login");
+            await NavigationService.NavigateAsync("MasterDetail/NavigationPage/LoginCopy");
+           // await NavigationService.NavigateAsync("Login");
 
         }
 

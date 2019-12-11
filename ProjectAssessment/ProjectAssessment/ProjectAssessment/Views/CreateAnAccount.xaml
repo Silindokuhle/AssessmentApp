@@ -4,74 +4,149 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.CreateAnAccount">
-    
 
-    <StackLayout>
-
+   
+        <StackLayout>
+        <ScrollView>
+            <StackLayout>
         <FlexLayout>
+            
+                <Image Source="person"
+                Margin="40,0,0,0" />
 
-            <Frame CornerRadius="50"
-               IsClippedToBounds="true"
-               HorizontalOptions="Start"
-               WidthRequest="100"
-               HeightRequest="100">
-            </Frame>
-
-            <Label Text="LOCATION  ALERT"
-                   TextColor="Black"
+                <Label Text="LOCATION  ALERT"
+                   TextColor="MediumPurple"
                    FontSize="Large"
                    Margin="20,40,10,0.8"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Start"  />
-                  
         </FlexLayout>
-        
-        <Entry Placeholder="Name" Text="{Binding UserInfo.Name}"
-               PlaceholderColor="Black"
-               HorizontalOptions="StartAndExpand"
-                   TextColor="Black" 
-                  Margin="50,0"/>
 
-        <Entry Placeholder="Surname" Text="{Binding UserInfo.Surname}"
-               PlaceholderColor="Black"
-               HorizontalOptions="StartAndExpand"
-                   TextColor="Black" 
-                  Margin="50,0"/>
 
-        <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <Entry Placeholder="Name" Text="{Binding UserInfo.Name}"
+                         PlaceholderColor="Black"
+                         HorizontalOptions="StartAndExpand"
+                         TextColor="Black" 
+                         Margin="20,0"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+
+                <Entry Placeholder="Surname" Text="{Binding UserInfo.Surname}"
+                         PlaceholderColor="Black"
+                         HorizontalOptions="StartAndExpand"
+                         TextColor="Black" 
+                         Margin="20,0"
+                    Grid.Row="0"
+                   Grid.Column="1"/>
+               
+
+
+                <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
                 PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
-                Margin="50,0"/>
+                Margin="20,0"
+                    Grid.Row="1"
+                   Grid.Column="0"/>
 
-        <Entry Placeholder="Cellphone Number" Text="{Binding UserInfo.Cellphonenumber}"
+                <Entry Placeholder="Cellphone Number" Text="{Binding UserInfo.Cellphonenumber}"
                 PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
-                Margin="50,0"/>
+                Margin="20,0"
+                    Grid.Row="1"
+                   Grid.Column="1"/>
 
 
-        <Entry Placeholder="Email" Text="{Binding UserInfo.Email}"
+                <Entry Placeholder="Email" Text="{Binding UserInfo.Email}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
-               Margin="50,0"/>
+               Margin="20,0"
+                    Grid.Row="2"
+                   Grid.Column="0"/>
 
-        <Entry Placeholder=" Create password" Text="{Binding UserInfo.Password}"
+                <Entry Placeholder=" Create password" Text="{Binding UserInfo.Password}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
-               Margin="50,0"/>
+               Margin="20,0"
+                    Grid.Row="2"
+                   Grid.Column="1"/>
+
+                <Label Text=" Emergency Contact Details"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                       Margin="30,10,0,0"
+                   Grid.Row="3"
+                   Grid.ColumnSpan ="2"/>
+
+                <Entry Placeholder="Name 1" Text="{Binding UserInfo.Name}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0,60,0"
+                    Grid.Row="4"
+                   Grid.Column="0"/>
+
+                <Entry Placeholder="Contact number" Text="{Binding UserInfo.Contactnumber}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="4"
+                   Grid.Column="1"/>
+
+                <Entry Placeholder="Name 2" Text="{Binding UserInfo.Name}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="5"
+                   Grid.Column="0"/>
 
 
-        <Button Text="Create account" Command="{Binding CreateaccountCommand}"
-                    Margin="50,80,80,0"/>
-     
+                <Entry Placeholder="Contact number" Text="{Binding UserInfo.Contactnumber}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="5"
+                   Grid.Column="1"/>
+
+
+
+               
+                
 
 
 
 
-
-       
-    </StackLayout> 
+            </Grid>
+                <Button Text="Create account" Command="{Binding CreateaccountCommand}"
+                   
+                    Margin="50,10,80,0"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
+        

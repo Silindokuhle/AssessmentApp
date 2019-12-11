@@ -19,7 +19,7 @@ namespace ProjectAssessment.ViewModels
 
         private IDatabase _database;
         private IUserProfile _userProfile;
-       // private IUserProfile userProfile;
+        // private IUserProfile userProfile;
 
         //private User _userInfo;
         //private User UserInfo
@@ -34,7 +34,7 @@ namespace ProjectAssessment.ViewModels
         //private ISecurityService _securityService;
         // private IEventAggregator _eventAggregator;
 
-        // public INavigationService NavigationService;
+         public INavigationService NavigationService;
 
         private DelegateCommand _loginCommand;
         public DelegateCommand LoginCommand =>
@@ -45,6 +45,7 @@ namespace ProjectAssessment.ViewModels
 
         private IPageDialogService _dialogService;
         public User Access { get; set; }
+        private object navigationService;
 
         public LoginViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService, IUserProfile userProfile) : base(navigationService)
         {
@@ -67,19 +68,21 @@ namespace ProjectAssessment.ViewModels
         private async void ExecuteLoginCommand()
         {
             var knownUser = await _database.GetUserByUserName(UserInfo.Username);
+            var Infor = UserInfo;
 
-            //var Infor = UserInfo;
             if (UserInfo.Username == null)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Username is required!", "ok");
-            }else if (UserInfo.Password == null)
+            }
+            else if (UserInfo.Password == null)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Username is required!", "ok");
-            }else if (UserInfo.Password != knownUser.Password || UserInfo.Username != knownUser.Username)
+            }
+            else if (UserInfo.Password != knownUser.Password || UserInfo.Username != knownUser.Username)
             {
                 await _dialogService.DisplayAlertAsync("Alert", "Wrong Username or Password, Please Try again!", "ok");
             }
-             else
+            else
             {
                 if (knownUser.Password == UserInfo.Password)
                 {
@@ -96,7 +99,16 @@ namespace ProjectAssessment.ViewModels
                 {
                     await _dialogService.DisplayAlertAsync("ALERT!", "Incorrect password, please try again", "ok");
                 }
+                //if (loginResult)
+                //{
+                //    _eventAggregator.GetEvent<LoginMessage>().Publish(userProfile);
+                //    await NavigationService.NavigateAsync("Login");
+
+                //}
             }
+        }
+    }
+}
             
 
 
@@ -109,15 +121,8 @@ namespace ProjectAssessment.ViewModels
             // I may have gotten a user profile somewhere..  Use whatever your app does
             //var userProfile = new UserProfile();
 
-            // if (loginResult)
-            // {
-            //    _eventAggregator.GetEvent<LoginMessage>().Publish(userProfile);
-        }
-            //await NavigationService.NavigateAsync("Login");
-
-    }
-}
-        
+           
+     
         
     
     

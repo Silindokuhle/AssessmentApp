@@ -46,6 +46,7 @@ namespace ProjectAssessment
             containerRegistry.RegisterForNavigation<Circle, CircleViewModel>();
             containerRegistry.RegisterForNavigation<PanicAlert, PanicAlertViewModel>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
+            containerRegistry.RegisterForNavigation<LoginCopy, LoginCopyViewModel>();
         }
     }
 }
