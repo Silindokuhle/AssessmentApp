@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\drawable\background.gif" />
+    <AndroidResource Include="Resources\drawable\bb.jpg" />
     <Content Include="Resources\drawable\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

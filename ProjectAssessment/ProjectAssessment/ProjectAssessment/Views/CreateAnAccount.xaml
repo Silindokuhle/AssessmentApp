@@ -4,7 +4,7 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.CreateAnAccount"
-             BackgroundImageSource="images.jpg">
+              BackgroundImageSource="bb">
 
    
         <StackLayout>
@@ -16,9 +16,9 @@
                 Margin="40,0,0,0" />
 
                 <Label Text="LOCATION  ALERT"
-                   TextColor="MediumPurple"
+                   TextColor="Purple"
                    FontSize="Large"
-                   Margin="20,40,10,0.8"
+                   Margin="60,40,10,0.8"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Start"  />
         </FlexLayout>
@@ -95,8 +95,8 @@
                     Grid.Row="2"
                    Grid.Column="1"/>
 
-                    <Entry Text="Locations"
-                        FontSize="20"
+                <Entry Text="Locations"
+                     FontSize="20"
                    FontAttributes="Bold"
                        Margin="30,10,0,0"
                            Grid.Row="3"
