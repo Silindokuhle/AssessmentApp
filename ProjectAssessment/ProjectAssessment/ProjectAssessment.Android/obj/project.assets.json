@@ -271,11 +271,11 @@
           "build/monoandroid90/Xamarin.Android.Arch.Lifecycle.ViewModel.targets": {}
         }
       },
-      "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.1": {
+      "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]",
-          "Xamarin.Android.Support.Vector.Drawable": "[28.0.0.1]"
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]",
+          "Xamarin.Android.Support.Vector.Drawable": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -305,11 +305,11 @@
           "build/monoandroid90/Xamarin.Android.Support.Annotations.targets": {}
         }
       },
-      "Xamarin.Android.Support.AsyncLayoutInflater/28.0.0.1": {
+      "Xamarin.Android.Support.AsyncLayoutInflater/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -363,12 +363,12 @@
           "build/monoandroid90/Xamarin.Android.Support.Compat.targets": {}
         }
       },
-      "Xamarin.Android.Support.CoordinaterLayout/28.0.0.1": {
+      "Xamarin.Android.Support.CoordinaterLayout/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.CustomView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.CustomView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -383,21 +383,21 @@
           "build/monoandroid90/Xamarin.Android.Support.CoordinaterLayout.targets": {}
         }
       },
-      "Xamarin.Android.Support.Core.UI/28.0.0.1": {
+      "Xamarin.Android.Support.Core.UI/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.AsyncLayoutInflater": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.CoordinaterLayout": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]",
-          "Xamarin.Android.Support.CursorAdapter": "[28.0.0.1]",
-          "Xamarin.Android.Support.CustomView": "[28.0.0.1]",
-          "Xamarin.Android.Support.DrawerLayout": "[28.0.0.1]",
-          "Xamarin.Android.Support.Interpolator": "[28.0.0.1]",
-          "Xamarin.Android.Support.SlidingPaneLayout": "[28.0.0.1]",
-          "Xamarin.Android.Support.SwipeRefreshLayout": "[28.0.0.1]",
-          "Xamarin.Android.Support.ViewPager": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.AsyncLayoutInflater": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.CoordinaterLayout": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]",
+          "Xamarin.Android.Support.CursorAdapter": "[28.0.0.3]",
+          "Xamarin.Android.Support.CustomView": "[28.0.0.3]",
+          "Xamarin.Android.Support.DrawerLayout": "[28.0.0.3]",
+          "Xamarin.Android.Support.Interpolator": "[28.0.0.3]",
+          "Xamarin.Android.Support.SlidingPaneLayout": "[28.0.0.3]",
+          "Xamarin.Android.Support.SwipeRefreshLayout": "[28.0.0.3]",
+          "Xamarin.Android.Support.ViewPager": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -435,10 +435,10 @@
           "build/monoandroid90/Xamarin.Android.Support.Core.Utils.targets": {}
         }
       },
-      "Xamarin.Android.Support.CursorAdapter/28.0.0.1": {
+      "Xamarin.Android.Support.CursorAdapter/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -453,14 +453,14 @@
           "build/monoandroid90/Xamarin.Android.Support.CursorAdapter.targets": {}
         }
       },
-      "Xamarin.Android.Support.CustomTabs/28.0.0.1": {
+      "Xamarin.Android.Support.CustomTabs/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Collections": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]",
-          "Xamarin.Android.Support.Interpolator": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Collections": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]",
+          "Xamarin.Android.Support.Interpolator": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -475,11 +475,11 @@
           "build/monoandroid90/Xamarin.Android.Support.CustomTabs.targets": {}
         }
       },
-      "Xamarin.Android.Support.CustomView/28.0.0.1": {
+      "Xamarin.Android.Support.CustomView/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -494,18 +494,18 @@
           "build/monoandroid90/Xamarin.Android.Support.CustomView.targets": {}
         }
       },
-      "Xamarin.Android.Support.Design/28.0.0.1": {
+      "Xamarin.Android.Support.Design/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]",
-          "Xamarin.Android.Support.Fragment": "[28.0.0.1]",
-          "Xamarin.Android.Support.Transition": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.AppCompat": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.CardView": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.RecyclerView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]",
+          "Xamarin.Android.Support.Fragment": "[28.0.0.3]",
+          "Xamarin.Android.Support.Transition": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.AppCompat": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.CardView": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.RecyclerView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -538,12 +538,12 @@
           "build/monoandroid90/Xamarin.Android.Support.DocumentFile.targets": {}
         }
       },
-      "Xamarin.Android.Support.DrawerLayout/28.0.0.1": {
+      "Xamarin.Android.Support.DrawerLayout/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.CustomView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.CustomView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -558,15 +558,15 @@
           "build/monoandroid90/Xamarin.Android.Support.DrawerLayout.targets": {}
         }
       },
-      "Xamarin.Android.Support.Fragment/28.0.0.1": {
+      "Xamarin.Android.Support.Fragment/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Arch.Lifecycle.ViewModel": "[1.1.1.1]",
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]",
-          "Xamarin.Android.Support.Loader": "[28.0.0.1]"
+          "Xamarin.Android.Arch.Lifecycle.ViewModel": "[1.1.1.3]",
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]",
+          "Xamarin.Android.Support.Loader": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -581,10 +581,10 @@
           "build/monoandroid90/Xamarin.Android.Support.Fragment.targets": {}
         }
       },
-      "Xamarin.Android.Support.Interpolator/28.0.0.1": {
+      "Xamarin.Android.Support.Interpolator/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -638,12 +638,12 @@
           "build/monoandroid90/Xamarin.Android.Support.LocalBroadcastManager.targets": {}
         }
       },
-      "Xamarin.Android.Support.Media.Compat/28.0.0.1": {
+      "Xamarin.Android.Support.Media.Compat/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.VersionedParcelable": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.VersionedParcelable": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -676,12 +676,12 @@
           "build/monoandroid90/Xamarin.Android.Support.Print.targets": {}
         }
       },
-      "Xamarin.Android.Support.SlidingPaneLayout/28.0.0.1": {
+      "Xamarin.Android.Support.SlidingPaneLayout/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.CustomView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.CustomView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -696,12 +696,12 @@
           "build/monoandroid90/Xamarin.Android.Support.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.Android.Support.SwipeRefreshLayout/28.0.0.1": {
+      "Xamarin.Android.Support.SwipeRefreshLayout/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Interpolator": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Interpolator": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -716,12 +716,12 @@
           "build/monoandroid90/Xamarin.Android.Support.SwipeRefreshLayout.targets": {}
         }
       },
-      "Xamarin.Android.Support.Transition/28.0.0.1": {
+      "Xamarin.Android.Support.Transition/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Fragment": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Fragment": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -736,14 +736,14 @@
           "build/monoandroid90/Xamarin.Android.Support.Transition.targets": {}
         }
       },
-      "Xamarin.Android.Support.v4/28.0.0.1": {
+      "Xamarin.Android.Support.v4/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]",
-          "Xamarin.Android.Support.Fragment": "[28.0.0.1]",
-          "Xamarin.Android.Support.Media.Compat": "[28.0.0.1]"
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]",
+          "Xamarin.Android.Support.Fragment": "[28.0.0.3]",
+          "Xamarin.Android.Support.Media.Compat": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -758,17 +758,17 @@
           "build/monoandroid90/Xamarin.Android.Support.v4.targets": {}
         }
       },
-      "Xamarin.Android.Support.v7.AppCompat/28.0.0.1": {
+      "Xamarin.Android.Support.v7.AppCompat/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Animated.Vector.Drawable": "[28.0.0.1]",
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Collections": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]",
-          "Xamarin.Android.Support.CursorAdapter": "[28.0.0.1]",
-          "Xamarin.Android.Support.Fragment": "[28.0.0.1]",
-          "Xamarin.Android.Support.Vector.Drawable": "[28.0.0.1]"
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "[28.0.0.3]",
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Collections": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]",
+          "Xamarin.Android.Support.CursorAdapter": "[28.0.0.3]",
+          "Xamarin.Android.Support.Fragment": "[28.0.0.3]",
+          "Xamarin.Android.Support.Vector.Drawable": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -783,10 +783,10 @@
           "build/monoandroid90/Xamarin.Android.Support.v7.AppCompat.targets": {}
         }
       },
-      "Xamarin.Android.Support.v7.CardView/28.0.0.1": {
+      "Xamarin.Android.Support.v7.CardView/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -801,13 +801,13 @@
           "build/monoandroid90/Xamarin.Android.Support.v7.CardView.targets": {}
         }
       },
-      "Xamarin.Android.Support.v7.MediaRouter/28.0.0.1": {
+      "Xamarin.Android.Support.v7.MediaRouter/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Media.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.AppCompat": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.Palette": "[28.0.0.1]",
-          "Xamarin.Android.Support.v7.RecyclerView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Media.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.AppCompat": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.Palette": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.RecyclerView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -822,11 +822,11 @@
           "build/monoandroid90/Xamarin.Android.Support.v7.MediaRouter.targets": {}
         }
       },
-      "Xamarin.Android.Support.v7.Palette/28.0.0.1": {
+      "Xamarin.Android.Support.v7.Palette/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.Utils": "[28.0.0.1]"
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.Utils": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -841,12 +841,12 @@
           "build/monoandroid90/Xamarin.Android.Support.v7.Palette.targets": {}
         }
       },
-      "Xamarin.Android.Support.v7.RecyclerView/28.0.0.1": {
+      "Xamarin.Android.Support.v7.RecyclerView/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.Core.UI": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.Core.UI": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -861,11 +861,11 @@
           "build/monoandroid90/Xamarin.Android.Support.v7.RecyclerView.targets": {}
         }
       },
-      "Xamarin.Android.Support.Vector.Drawable/28.0.0.1": {
+      "Xamarin.Android.Support.Vector.Drawable/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -899,12 +899,12 @@
           "build/monoandroid90/Xamarin.Android.Support.VersionedParcelable.targets": {}
         }
       },
-      "Xamarin.Android.Support.ViewPager/28.0.0.1": {
+      "Xamarin.Android.Support.ViewPager/28.0.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Annotations": "[28.0.0.1]",
-          "Xamarin.Android.Support.Compat": "[28.0.0.1]",
-          "Xamarin.Android.Support.CustomView": "[28.0.0.1]"
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]",
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]",
+          "Xamarin.Android.Support.CustomView": "[28.0.0.3]"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -1414,10 +1414,10 @@
         "xamarin.android.arch.lifecycle.viewmodel.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.1": {
-      "sha512": "6J6mp9j+vseKZ5QZQxuOSlpXb7PSRLA/8cmkC1ShqUIc/AzXh19EEcu4EpUda9WbnhOObmI7pHAMAjpjVWf6zA==",
+    "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.3": {
+      "sha512": "sgR9ixZpaIx6oGNPEUlXDkNH6DUAwwJdS2xHkmJzarIuUHa07xjWlE1TW3pdjkdBjDx5jn0S9l9b8oUkKRMXNw==",
       "type": "package",
-      "path": "xamarin.android.support.animated.vector.drawable/28.0.0.1",
+      "path": "xamarin.android.support.animated.vector.drawable/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1434,7 +1434,8 @@
         "proguard/monoandroid71/proguard.txt",
         "proguard/monoandroid80/proguard.txt",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.animated.vector.drawable.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.animated.vector.drawable.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.animated.vector.drawable.nuspec"
       ]
     },
@@ -1459,10 +1460,10 @@
         "xamarin.android.support.annotations.nuspec"
       ]
     },
-    "Xamarin.Android.Support.AsyncLayoutInflater/28.0.0.1": {
-      "sha512": "1euDyaH0Y5GpbY+0Eijy7g2RP8CuxQBM3Q8L8wAF/AKAG+qny1Io2GFCAvzyFxXpcToGrZneihVmvUbytiGw9w==",
+    "Xamarin.Android.Support.AsyncLayoutInflater/28.0.0.3": {
+      "sha512": "qeWhmUhEgQLz4aYxh786+3PkafVztJiC5GcWUWEBzfRFcH5wOqPpeo7JyCUofT5D7gxkiH7aDFal8Q7LIjEyfg==",
       "type": "package",
-      "path": "xamarin.android.support.asynclayoutinflater/28.0.0.1",
+      "path": "xamarin.android.support.asynclayoutinflater/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1473,7 +1474,7 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.AsyncLayoutInflater.dll",
-        "xamarin.android.support.asynclayoutinflater.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.asynclayoutinflater.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.asynclayoutinflater.nuspec"
       ]
     },
@@ -1517,10 +1518,10 @@
         "xamarin.android.support.compat.nuspec"
       ]
     },
-    "Xamarin.Android.Support.CoordinaterLayout/28.0.0.1": {
-      "sha512": "pLWiyR5FoEwfAiJXLAJk4wAG+i6zdY97Thomk8dCICz1TUJLIVFNTKOML8qRFHPaNXrbfzKdWwg/Fzy/5OXaLQ==",
+    "Xamarin.Android.Support.CoordinaterLayout/28.0.0.3": {
+      "sha512": "hmZPDob3/TgXHxlpumJj8+ju0/kAC1xKbIiJ9xe1g09XAYz5jjStqkgUIop3c8LJS06E9TsrCbHJWUou0JUuYw==",
       "type": "package",
-      "path": "xamarin.android.support.coordinaterlayout/28.0.0.1",
+      "path": "xamarin.android.support.coordinaterlayout/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1531,14 +1532,15 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.CoordinaterLayout.dll",
-        "xamarin.android.support.coordinaterlayout.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.coordinaterlayout.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.coordinaterlayout.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Core.UI/28.0.0.1": {
-      "sha512": "ZdQ3dNnqINhlARTZJ3Ietlyp1M6fY2eFOuyCb1p7SafdfCpo1m74H5CViIHwXpLSGBeEYKVlb//TyrQ6gZTxtQ==",
+    "Xamarin.Android.Support.Core.UI/28.0.0.3": {
+      "sha512": "+P69CFVKAMAYFp1WtBdKqKOmaE3QZcwS1yX+KP1IxhUs0zobov8E79gnKs4uuBamRX6gbWqEZGM76VIqWLE7gA==",
       "type": "package",
-      "path": "xamarin.android.support.core.ui/28.0.0.1",
+      "path": "xamarin.android.support.core.ui/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1555,7 +1557,7 @@
         "proguard/monoandroid71/proguard.txt",
         "proguard/monoandroid80/proguard.txt",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.core.ui.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.core.ui.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.core.ui.nuspec"
       ]
     },
@@ -1580,10 +1582,10 @@
         "xamarin.android.support.core.utils.nuspec"
       ]
     },
-    "Xamarin.Android.Support.CursorAdapter/28.0.0.1": {
-      "sha512": "lGaN2eQl6+E6fdCIgUx+B2/QsKFxhS54fUXKiypE+WEKo8CsBF75xk0RN9hSPBTzf64W/yMUyoB2H79CXyB4vg==",
+    "Xamarin.Android.Support.CursorAdapter/28.0.0.3": {
+      "sha512": "ztrojDZovUP9EEXAcmFCd51ozfd+HULTNWb2x6iQko7MafJ+kZrx0EWEk+34RC0khYpY4r0EQxILfXScZYWmcA==",
       "type": "package",
-      "path": "xamarin.android.support.cursoradapter/28.0.0.1",
+      "path": "xamarin.android.support.cursoradapter/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1594,14 +1596,14 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.CursorAdapter.dll",
-        "xamarin.android.support.cursoradapter.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.cursoradapter.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.cursoradapter.nuspec"
       ]
     },
-    "Xamarin.Android.Support.CustomTabs/28.0.0.1": {
-      "sha512": "INbnBbSWwClVztNUkpyruXXkWWawbtOV6RxW0q7htqRWSUeLK8JhN6tboyhTGW3lV0iy8IebPyNyniNLOVVVFw==",
+    "Xamarin.Android.Support.CustomTabs/28.0.0.3": {
+      "sha512": "4g+xOXDgHqvI+hSzS6Lwlx0zudsZvz/UKwW+1ax15kA9f+Oy2X3XVjmBXueEvrIlLnoTByfQKrFvNo4RZ7qR9g==",
       "type": "package",
-      "path": "xamarin.android.support.customtabs/28.0.0.1",
+      "path": "xamarin.android.support.customtabs/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1615,14 +1617,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.CustomTabs.dll",
         "lib/monoandroid81/Xamarin.Android.Support.CustomTabs.dll",
         "lib/monoandroid90/Xamarin.Android.Support.CustomTabs.dll",
-        "xamarin.android.support.customtabs.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.customtabs.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.customtabs.nuspec"
       ]
     },
-    "Xamarin.Android.Support.CustomView/28.0.0.1": {
-      "sha512": "D2WFCwV6CXWWc30trWlBhlHGRsYBDCJAnQmP4la3Eun47AwcGLaF7/I1xIdkejK7UgTXpr9iisOEPz+G/l+InA==",
+    "Xamarin.Android.Support.CustomView/28.0.0.3": {
+      "sha512": "rSXnmtnB8GLYR6x5UXspnYLBeNzFsZpNmoM8vbwDb6wkGFxpUPbtVjKfmMFq+5qMp97Ymk0uZ5WsONp9dMaYWA==",
       "type": "package",
-      "path": "xamarin.android.support.customview/28.0.0.1",
+      "path": "xamarin.android.support.customview/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1633,14 +1635,14 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.CustomView.dll",
-        "xamarin.android.support.customview.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.customview.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.customview.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Design/28.0.0.1": {
-      "sha512": "+wqsjk/GhDNtjZVEqHUUJSO5n9/Cr1ZKMOsbGIF9QvJS3UYOD/bD978bjwgjMmA/Pf43pxoP8sK10DQjQIc9Tw==",
+    "Xamarin.Android.Support.Design/28.0.0.3": {
+      "sha512": "6Zry+KEYhmwqoC2JRQoHRLhYHlnSj5sqIv9EnbxZT8oO5fJf+/O//bIGZWXyojammOg5xZ/BEoyFaau6PM3xKA==",
       "type": "package",
-      "path": "xamarin.android.support.design/28.0.0.1",
+      "path": "xamarin.android.support.design/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1657,7 +1659,8 @@
         "proguard/monoandroid71/proguard.txt",
         "proguard/monoandroid80/proguard.txt",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.design.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.design.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.design.nuspec"
       ]
     },
@@ -1679,10 +1682,10 @@
         "xamarin.android.support.documentfile.nuspec"
       ]
     },
-    "Xamarin.Android.Support.DrawerLayout/28.0.0.1": {
-      "sha512": "F8fW3fVHugV6ikUQk5dLdxgE4IehqHEBnZ/EpWkOtmfB5hIodYXdCHIeh+4NhXmprvBhGZ+LuXpXmkGfYMztWg==",
+    "Xamarin.Android.Support.DrawerLayout/28.0.0.3": {
+      "sha512": "PLzHzWTsFy12AX9QUUxadgV88+C+9lllw6yWhss4IJeXTzAfzszCBBBAhoUssNxzYNEJlFOsyqJvhtYrHmX9yA==",
       "type": "package",
-      "path": "xamarin.android.support.drawerlayout/28.0.0.1",
+      "path": "xamarin.android.support.drawerlayout/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1693,14 +1696,14 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.DrawerLayout.dll",
-        "xamarin.android.support.drawerlayout.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.drawerlayout.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.drawerlayout.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Fragment/28.0.0.1": {
-      "sha512": "9CAHbSzb2Bu3nBHE3mOa7TsStPbSl0DFAPimhGbuFttCginDH5UaFtynwirojoiYOXnL5tPQhdMiT78ETRM9yw==",
+    "Xamarin.Android.Support.Fragment/28.0.0.3": {
+      "sha512": "Sy/KrzZeJgTm6gkSaIKRTPBpZWbtGHr9gOmO9fUGdVnU2ZPNtqlvPivROXDctoFq4FKQAFWmpkxHrf/cOhFB9w==",
       "type": "package",
-      "path": "xamarin.android.support.fragment/28.0.0.1",
+      "path": "xamarin.android.support.fragment/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1714,14 +1717,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.Fragment.dll",
         "lib/monoandroid81/Xamarin.Android.Support.Fragment.dll",
         "lib/monoandroid90/Xamarin.Android.Support.Fragment.dll",
-        "xamarin.android.support.fragment.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.fragment.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.fragment.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Interpolator/28.0.0.1": {
-      "sha512": "ExDhL866cD3xz9zDrZamk/qkMa+4COXoeNy5iIk/ZcTISPlFZ8HMs2n29Ky8DW4GAafYn1itBBfuVmaL2HdGoQ==",
+    "Xamarin.Android.Support.Interpolator/28.0.0.3": {
+      "sha512": "GTNxY3IOwavAHUkBTNdGapDQqB8pLBZ/8ULutPHxmOyV5sKb5Ro7I0+YMew6Sn6gob63an5hz9Rp2HjmIdav+Q==",
       "type": "package",
-      "path": "xamarin.android.support.interpolator/28.0.0.1",
+      "path": "xamarin.android.support.interpolator/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1732,7 +1735,7 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.Interpolator.dll",
-        "xamarin.android.support.interpolator.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.interpolator.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.interpolator.nuspec"
       ]
     },
@@ -1772,10 +1775,10 @@
         "xamarin.android.support.localbroadcastmanager.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Media.Compat/28.0.0.1": {
-      "sha512": "9BWAR4kwdPE6nP3EJEq+B1t1INphxbYuRhP1z7EKBcos+3/i/d1vpaMFveAbieO7u/CF+qP/s8HmIcCblHxkgg==",
+    "Xamarin.Android.Support.Media.Compat/28.0.0.3": {
+      "sha512": "0KLBggwr7b8hKZhC5m0z1a11FErJ6YjrDTP2pVfWHxZ8rs6p1SamFN7iIfyGwY1OMBTh5XzP4v4egyL+gDCl4A==",
       "type": "package",
-      "path": "xamarin.android.support.media.compat/28.0.0.1",
+      "path": "xamarin.android.support.media.compat/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1791,7 +1794,8 @@
         "lib/monoandroid90/Xamarin.Android.Support.Media.Compat.dll",
         "proguard/monoandroid80/proguard.txt",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.media.compat.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.media.compat.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.media.compat.nuspec"
       ]
     },
@@ -1813,10 +1817,10 @@
         "xamarin.android.support.print.nuspec"
       ]
     },
-    "Xamarin.Android.Support.SlidingPaneLayout/28.0.0.1": {
-      "sha512": "fRJt5KqHxi2UmVICpg0TAE3Q4zM9V/9GaFIvyq6jFCFHcZnrYd4brtNNprrFjIRaURIpdj1C/0faVWp+aKd5vg==",
+    "Xamarin.Android.Support.SlidingPaneLayout/28.0.0.3": {
+      "sha512": "NT2ZMlGRPLN4YUeBFcbAQTnMdh/cfMS30FyPiiVGz6BaChiVhxLiWjS8vDKaSuE7qTnwKKvRU864Ta0/x7GDvg==",
       "type": "package",
-      "path": "xamarin.android.support.slidingpanelayout/28.0.0.1",
+      "path": "xamarin.android.support.slidingpanelayout/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1827,14 +1831,14 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.SlidingPaneLayout.dll",
-        "xamarin.android.support.slidingpanelayout.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.slidingpanelayout.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.slidingpanelayout.nuspec"
       ]
     },
-    "Xamarin.Android.Support.SwipeRefreshLayout/28.0.0.1": {
-      "sha512": "ckI3ymcDuF0RTEv5ze7Qq5V2mQkZ5VbuaFTh6saBHKMOuX3EtphKZQ1XmUAkxjC7WP9XVZmmZ8xu7GtPCICaOg==",
+    "Xamarin.Android.Support.SwipeRefreshLayout/28.0.0.3": {
+      "sha512": "z8zoQyaSu5xx7CxLaADWJ0BWfFcwTbQ72S1G9sJdhB4i/RRfY5P3PDffVoiWUr79r9liztKNHB2pu8mjQ9VYjg==",
       "type": "package",
-      "path": "xamarin.android.support.swiperefreshlayout/28.0.0.1",
+      "path": "xamarin.android.support.swiperefreshlayout/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1845,14 +1849,14 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.SwipeRefreshLayout.dll",
-        "xamarin.android.support.swiperefreshlayout.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.swiperefreshlayout.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.swiperefreshlayout.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Transition/28.0.0.1": {
-      "sha512": "bwEOyMgA1YBbihwKEd/yjwN9tsJKb060VItPc5DDAc3yjz/Ly8kBqEyEcYKekwTEsh7MgDxOqBuTUrnEDq6MXw==",
+    "Xamarin.Android.Support.Transition/28.0.0.3": {
+      "sha512": "W2Lseb6UWNDUXwRd7TfL26FSZW9iYbfP+sVN0e5eHH7v70qAYqy7A5ENfJrFcS+WkziIaRNPjz5PcD4hSoCaHg==",
       "type": "package",
-      "path": "xamarin.android.support.transition/28.0.0.1",
+      "path": "xamarin.android.support.transition/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1867,14 +1871,15 @@
         "lib/monoandroid81/Xamarin.Android.Support.Transition.dll",
         "lib/monoandroid90/Xamarin.Android.Support.Transition.dll",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.transition.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.transition.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.transition.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v4/28.0.0.1": {
-      "sha512": "sKMHm0capUzlhFJSwW3fIh/IwOOVjn5mGNf7TVBzsorsSmrV9GIRv2NGHDGEbaUzJcM1ZkadUOn5vCeKy7KLZw==",
+    "Xamarin.Android.Support.v4/28.0.0.3": {
+      "sha512": "eDp/4Twt+FwJlthOxDiZTWhFdQwIjlOLww63JW9MmDpW3WKW5Pd2H17x7V8H/A/B6mmp1mqxBR2TmZj+zzaeyQ==",
       "type": "package",
-      "path": "xamarin.android.support.v4/28.0.0.1",
+      "path": "xamarin.android.support.v4/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1888,14 +1893,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.v4.dll",
         "lib/monoandroid81/Xamarin.Android.Support.v4.dll",
         "lib/monoandroid90/Xamarin.Android.Support.v4.dll",
-        "xamarin.android.support.v4.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.v4.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v4.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v7.AppCompat/28.0.0.1": {
-      "sha512": "7tF7B0ez0KZrOSEsky65CufGHtjAgR59jNXHq8nnXZhPYZE/3gtHnUpdwU7Ppn+s04OLQK8RkOCXAgZ7n9eN4Q==",
+    "Xamarin.Android.Support.v7.AppCompat/28.0.0.3": {
+      "sha512": "GO+NAVD2H3+Ic27xCAG++4s6Qj+xeF1BFppUyYMUGtk+3IaeTKNHMf5OsuqQJbff09YwzuBmk/w2gNKn0FY1dw==",
       "type": "package",
-      "path": "xamarin.android.support.v7.appcompat/28.0.0.1",
+      "path": "xamarin.android.support.v7.appcompat/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1909,14 +1914,15 @@
         "lib/monoandroid80/Xamarin.Android.Support.v7.AppCompat.dll",
         "lib/monoandroid81/Xamarin.Android.Support.v7.AppCompat.dll",
         "lib/monoandroid90/Xamarin.Android.Support.v7.AppCompat.dll",
-        "xamarin.android.support.v7.appcompat.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.v7.appcompat.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v7.appcompat.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v7.CardView/28.0.0.1": {
-      "sha512": "TpR/hIJiEhjdQCoessaitAKXnHI4p3J0uWfk9XqZhtvmOv7WobQQV7Di+MaYlsg+FHSipbl/d3GoocGtQaMIrA==",
+    "Xamarin.Android.Support.v7.CardView/28.0.0.3": {
+      "sha512": "/0/uyf3Yv0P+QVQ0obCrax8wlh9yUofDZ7tLFgu/yBKiF7X9VxDfgzqQKpGe/A3WiVBSY23SaYhLa1t+3gNovA==",
       "type": "package",
-      "path": "xamarin.android.support.v7.cardview/28.0.0.1",
+      "path": "xamarin.android.support.v7.cardview/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1930,14 +1936,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.v7.CardView.dll",
         "lib/monoandroid81/Xamarin.Android.Support.v7.CardView.dll",
         "lib/monoandroid90/Xamarin.Android.Support.v7.CardView.dll",
-        "xamarin.android.support.v7.cardview.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.v7.cardview.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v7.cardview.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v7.MediaRouter/28.0.0.1": {
-      "sha512": "IGJnCLd3D9+9t6F8dlsF0BjH2ylTDXqF1lbAwHtLszVyr9B9Hd8S/eJ8xEdWRiuqTVD2iWCtCo0J2jqoIs5WNw==",
+    "Xamarin.Android.Support.v7.MediaRouter/28.0.0.3": {
+      "sha512": "DkcJkkIP1eCYyvIEnON1dgLisV1XZRCl1P5QyuAhWXNFrQAV5iG0fhFQuH37c3bNEMIlG+sRctOLundey/PCig==",
       "type": "package",
-      "path": "xamarin.android.support.v7.mediarouter/28.0.0.1",
+      "path": "xamarin.android.support.v7.mediarouter/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1951,14 +1957,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.v7.MediaRouter.dll",
         "lib/monoandroid81/Xamarin.Android.Support.v7.MediaRouter.dll",
         "lib/monoandroid90/Xamarin.Android.Support.v7.MediaRouter.dll",
-        "xamarin.android.support.v7.mediarouter.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.v7.mediarouter.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v7.mediarouter.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v7.Palette/28.0.0.1": {
-      "sha512": "GH0+acwQnBghcCK++RMZhbwvyKQFcRNoH4zoBwWat9T8KufJyuaX5WN2MG5Dzy+qSsbmDi9iH9YtM2xtszxaHg==",
+    "Xamarin.Android.Support.v7.Palette/28.0.0.3": {
+      "sha512": "MdcR+B2nn1B8HeeJKAvn9yEEmP/vOQ2RWavLQgwipiLS6uzJSFFTLEuMuLGPWchT4g6J6YWsMZ4NIXFRdlkBKA==",
       "type": "package",
-      "path": "xamarin.android.support.v7.palette/28.0.0.1",
+      "path": "xamarin.android.support.v7.palette/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1972,14 +1978,14 @@
         "lib/monoandroid80/Xamarin.Android.Support.v7.Palette.dll",
         "lib/monoandroid81/Xamarin.Android.Support.v7.Palette.dll",
         "lib/monoandroid90/Xamarin.Android.Support.v7.Palette.dll",
-        "xamarin.android.support.v7.palette.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.v7.palette.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v7.palette.nuspec"
       ]
     },
-    "Xamarin.Android.Support.v7.RecyclerView/28.0.0.1": {
-      "sha512": "JdZStP71IBHVcFBzjyNa9CMQA09Dqkab5ZfmsZ0YU7I9YEIbDexCd4oFVDbe1ajoKLkwdU81cywDCGI3AdkC7A==",
+    "Xamarin.Android.Support.v7.RecyclerView/28.0.0.3": {
+      "sha512": "FL79rgMeI8UCkgRQ8LqlSCKKHEoFbJaCKz91XZNfXwK6kIkXgZCpsJnncub8LHgqwmcL898G3uCQ4Y5eTqMaMg==",
       "type": "package",
-      "path": "xamarin.android.support.v7.recyclerview/28.0.0.1",
+      "path": "xamarin.android.support.v7.recyclerview/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1996,14 +2002,15 @@
         "proguard/monoandroid71/proguard.txt",
         "proguard/monoandroid80/proguard.txt",
         "proguard/monoandroid81/proguard.txt",
-        "xamarin.android.support.v7.recyclerview.28.0.0.1.nupkg.sha512",
+        "proguard/monoandroid90/proguard.txt",
+        "xamarin.android.support.v7.recyclerview.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.v7.recyclerview.nuspec"
       ]
     },
-    "Xamarin.Android.Support.Vector.Drawable/28.0.0.1": {
-      "sha512": "pGCJ4zbXLIrQm63flSIVUmoIizdI42ZbFVdVUGSXaYu+YZ3qUbYcFMAfMXHkzpzhjckQIXzMAxC6xifqcziA8w==",
+    "Xamarin.Android.Support.Vector.Drawable/28.0.0.3": {
+      "sha512": "1Ky13Zl4wKOf52/hQxf05Dr85V8xwGpTYv1E5AxcmwyPD0300ImEL7pmjKJUcLOriYo/OtQM8GbJEUwQuBwqmA==",
       "type": "package",
-      "path": "xamarin.android.support.vector.drawable/28.0.0.1",
+      "path": "xamarin.android.support.vector.drawable/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2025,7 +2032,7 @@
         "lib/monoandroid80/Xamarin.Android.Support.Vector.Drawable.dll",
         "lib/monoandroid81/Xamarin.Android.Support.Vector.Drawable.dll",
         "lib/monoandroid90/Xamarin.Android.Support.Vector.Drawable.dll",
-        "xamarin.android.support.vector.drawable.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
@@ -2048,10 +2055,10 @@
         "xamarin.android.support.versionedparcelable.nuspec"
       ]
     },
-    "Xamarin.Android.Support.ViewPager/28.0.0.1": {
-      "sha512": "tjbc5jsLVeK6TAH6crOyqW1QP37koBptWBDcx5Ey7lyABYfLFlZTB1odlPVodXFeJ3W/gAaRjVSlHtZpiWKW3g==",
+    "Xamarin.Android.Support.ViewPager/28.0.0.3": {
+      "sha512": "yEn0Fyq8lnnXAh4Dg1d2DutIQmrIUX3OKAQyivv2noteBorHYRPB0SVaJP+rPq/I62Z0xFQKrI8h4B+Gk4MNpA==",
       "type": "package",
-      "path": "xamarin.android.support.viewpager/28.0.0.1",
+      "path": "xamarin.android.support.viewpager/28.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2062,7 +2069,7 @@
         "lib/monoandroid80/_._",
         "lib/monoandroid81/_._",
         "lib/monoandroid90/Xamarin.Android.Support.ViewPager.dll",
-        "xamarin.android.support.viewpager.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.viewpager.nuspec"
       ]
     },
@@ -2377,12 +2384,11 @@
     "MonoAndroid,Version=v9.0": [
       "Prism.Unity.Forms >= 7.2.0.1367",
       "ProjectAssessment >= 1.0.0",
-      "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
-      "Xamarin.Android.Support.Design >= 28.0.0.1",
-      "Xamarin.Android.Support.v4 >= 28.0.0.1",
-      "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
-      "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
-      "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
+      "Xamarin.Android.Support.CustomTabs >= 28.0.0.3",
+      "Xamarin.Android.Support.Design >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
       "Xamarin.Forms >= 4.3.0.991221"
     ]
   },
@@ -2434,27 +2440,23 @@
           },
           "Xamarin.Android.Support.CustomTabs": {
             "target": "Package",
-            "version": "[28.0.0.1, )"
+            "version": "[28.0.0.3, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "[28.0.0.1, )"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "[28.0.0.1, )"
+            "version": "[28.0.0.3, )"
           },
           "Xamarin.Android.Support.v7.AppCompat": {
             "target": "Package",
-            "version": "[28.0.0.1, )"
+            "version": "[28.0.0.3, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "[28.0.0.1, )"
+            "version": "[28.0.0.3, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "[28.0.0.1, )"
+            "version": "[28.0.0.3, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
@@ -2463,16 +2465,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Xamarin.Android.Support.Collections. Install/reference Xamarin.Android.Support.Collections 28.0.0.3 directly to project ProjectAssessment.Android to resolve this issue. \r\n ProjectAssessment.Android -> ProjectAssessment -> Xamarin.Essentials 1.3.1 -> Xamarin.Android.Support.Compat 28.0.0.3 -> Xamarin.Android.Support.Collections (= 28.0.0.3) \r\n ProjectAssessment.Android -> Xamarin.Android.Support.CustomTabs 28.0.0.1 -> Xamarin.Android.Support.Collections (= 28.0.0.1).",
-      "libraryId": "Xamarin.Android.Support.Collections",
-      "targetGraphs": [
-        "MonoAndroid,Version=v9.0"
-      ]
-    }
-  ]
+  }
 }

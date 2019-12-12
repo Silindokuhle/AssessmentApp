@@ -8,7 +8,7 @@
    
         <StackLayout>
         <FlexLayout>
-            <Image Source="locationLogo"/>
+            <Image Source="location"/>
             <Label Text="       MY  LOCATIONS"   
                    HorizontalOptions="CenterAndExpand"
                    FontSize="50"
@@ -16,21 +16,21 @@
         </FlexLayout>
             
         <FlexLayout>
-            <Image Source="homeicon"/>
+            <Image Source="home"/>
             <Label Text="    Home"
                     Margin="0,20,0,0"/>
         </FlexLayout>
         <FlexLayout>
 
-            <Image Source="work"/>
+            <Image Source="box"/>
         <Label Text="    Work"
                     Margin="0,20,0,0"/>
         </FlexLayout>
             
         <FlexLayout>
 
-            <Image Source="box"/>
-            <Label Text="    Other"
+            <Image Source=""/>
+            <Label Text=" family"
                     Margin="0,20,0,0"/>
         </FlexLayout>
 

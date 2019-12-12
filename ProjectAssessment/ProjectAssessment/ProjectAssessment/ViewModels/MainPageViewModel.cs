@@ -12,7 +12,6 @@ namespace ProjectAssessment.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        private DelegateCommand _forgotyourPasswordCommand;
         private IEventAggregator _eventAggregator;
 
         //button for logging in
@@ -30,8 +29,10 @@ namespace ProjectAssessment.ViewModels
 
             await NavigationService.NavigateAsync("CreateAnAccount");
         }
-        
-
+        public Action DisplayInvalidLoginPromp;
+        public event PropertyChangedEventHandler PropertyChanged = delegate { };
+       
+      
         public async void ExecuteLoginCommand()
         {
             await NavigationService.NavigateAsync("Login");
@@ -40,22 +41,14 @@ namespace ProjectAssessment.ViewModels
         }
 
 
-        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
+
+        public MainPageViewModel(INavigationService navigationService, IEventAggregator eventAggregator) : base(navigationService)
         {
             Title = "Main Page";
+            _eventAggregator = eventAggregator;
         }
         public Action DisplayInvalidLoginPrompt;
-        public event PropertyChangedEventHandler PropertyChanged = delegate { };
-        private string email;
-        public string Email
-        {
-            get { return email; }
-            set
-            {
-                email = value;
-                PropertyChanged(this, new PropertyChangedEventArgs("Email"));
-            }
-        }
+       
         private string password;
         public string Password
         {

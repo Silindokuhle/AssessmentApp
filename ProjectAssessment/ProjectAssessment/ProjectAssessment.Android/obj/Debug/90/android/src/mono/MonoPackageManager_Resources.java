@@ -2,6 +2,7 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ProjectAssessment.Android.dll" comes first in this list. */
+		"ProjectAssessment.Android.dll",
 		"FormsViewGroup.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",
