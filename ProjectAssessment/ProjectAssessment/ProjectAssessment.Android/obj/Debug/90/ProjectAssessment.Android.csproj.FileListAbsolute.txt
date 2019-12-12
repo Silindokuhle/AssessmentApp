@@ -30,7 +30,6 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\values\styles.xml
-C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\background.jpg
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\uploadflags.txt
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\linksrc\ProjectAssessment.Android.dll
@@ -459,7 +458,6 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\download.jpg
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\flata\96091467e377b9faede2f4a5ccbecc1d74789768.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\flata\ef76cd825d7db327f9e779ef680fa7b2252eb420.stamp
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\flata\6b895b9985e34a6c98a1d1aeeafb877424ef7fd7.stamp
@@ -549,7 +547,6 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\femalep.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\help.jpg
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\user.png
-C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\pin.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\locationlogo.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\homeicon.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\work.png
@@ -557,6 +554,6 @@ C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.A
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\lock.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\about.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\masterd.jpg
-C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\person.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\locprofile.png
 C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\box.png
+C:\Xamarin\AssessmentApp\ProjectAssessment\ProjectAssessment\ProjectAssessment.Android\obj\Debug\90\res\drawable\female.png

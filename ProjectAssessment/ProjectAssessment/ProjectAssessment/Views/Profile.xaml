@@ -7,26 +7,65 @@
              BackgroundColor="White">
     <StackLayout>
         <FlexLayout>
-            <Image Source="locProfile" HorizontalOptions="CenterAndExpand"
+
+            <Image Source="female" HorizontalOptions="CenterAndExpand"
                    VerticalOptions="CenterAndExpand"
-                   Margin="50,50,0,0"
+                 Margin=" 160,50,0,0"
                    BackgroundColor="Transparent"/>
-
-            <!--<Label Text="PROFILE"
-                   TextColor="Black"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="40"
-                   FontAttributes="Bold"
-                    Margin="-20,80,0,0"/>-->
-
-
-
         </FlexLayout>
         
+        <FlexLayout>
+        <Label Text="Welcome  "
+                   TextColor="Black"
+                   FontSize="30"
+               Margin=" 100,0,0,0"/>
 
-            
+            <Label Text="{Binding LoggedInUser.Username}"
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   />
+        </FlexLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
 
 
-       
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Entry Text="{Binding LoggedInUser.Name}" Placeholder="Name" Grid.Column="0" Grid.Row="0" TextColor="Black"/>
+            <Entry Text="{Binding LoggedInUser.Surname}" Placeholder="Surname" Grid.Column="1" Grid.Row="0" TextColor="Black"/>
+
+            <Entry Text="{Binding LoggedInUser.Cellphonenumber}" Placeholder="Cellphonenumber" Grid.Column="0" Grid.Row="1" TextColor="Black"/>
+            <Entry Text="{Binding LoggedInUser.Email}" Placeholder="Email" Grid.Column="1" Grid.Row="1" TextColor="Black"/>
+
+            <Label Text="Emergency Contacts" Grid.ColumnSpan="2" Grid.Row="2" Margin="130,0,0,0" FontSize="20" FontAttributes="Bold"/>
+
+            <Entry Text="{Binding LoggedInUser.Name1}" Placeholder="Password" Grid.Column="0" Grid.Row="3" TextColor="Black"/>
+            <Entry Text="{Binding LoggedInUser.Contactnumber1}" Placeholder="Contactnumber1" Grid.Column="1" Grid.Row="3" TextColor="Black"/>
+           
+            <Entry Text="{Binding LoggedInUser.Name2}" Placeholder="Name2" Grid.Column="0" Grid.Row="4" TextColor="Black"/>
+            <Entry Text="{Binding LoggedInUser.Contactnumber2}" Placeholder="Contactnumber2" Grid.Column="1" Grid.Row="4" TextColor="Black"/>
+
+            <!--LoggedInUser-->
+
+
+
+
+
+
+        </Grid>
     </StackLayout>
 </ContentPage>

@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="ProjectAssessment.Views.CreateAnAccount">
+             x:Class="ProjectAssessment.Views.CreateAnAccount"
+             BackgroundImageSource="images.jpg">
 
    
         <StackLayout>
@@ -32,9 +33,10 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
 
 
-                </Grid.RowDefinitions>
+                    </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -93,47 +95,79 @@
                     Grid.Row="2"
                    Grid.Column="1"/>
 
-                <Label Text=" Emergency Contact Details"
+                    <Entry Text="Locations"
+                        FontSize="20"
+                   FontAttributes="Bold"
+                       Margin="30,10,0,0"
+                           Grid.Row="3"
+                           Grid.ColumnSpan="2"/>
+
+                    <Entry Placeholder="Home" Text="{Binding UserInfo.Home}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="4"
+                   Grid.Column="0"/>
+                
+                    <Entry Placeholder="Work" Text="{Binding UserInfo.Work}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="4"
+                   Grid.Column="1"/>
+                
+                    <Entry Placeholder="Other" Text="{Binding UserInfo.other}"
+               PlaceholderColor="Black"
+               HorizontalOptions="StartAndExpand"
+                   TextColor="Black" 
+               Margin="20,0"
+                    Grid.Row="5"
+                   Grid.Column="0"/>
+
+
+                    <Label Text=" Emergency Contact Details"
                    FontSize="20"
                    FontAttributes="Bold"
                        Margin="30,10,0,0"
-                   Grid.Row="3"
+                   Grid.Row="6"
                    Grid.ColumnSpan ="2"/>
 
-                <Entry Placeholder="Name 1" Text="{Binding UserInfo.Name}"
+                <Entry Placeholder="Name 1" Text="{Binding UserInfo.Name1}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                Margin="20,0,60,0"
-                    Grid.Row="4"
+                    Grid.Row="7"
                    Grid.Column="0"/>
 
-                <Entry Placeholder="Contact number" Text="{Binding UserInfo.Contactnumber}"
+                <Entry Placeholder="Contact number1" Text="{Binding UserInfo.Contactnumber1}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                Margin="20,0"
-                    Grid.Row="4"
+                    Grid.Row="7"
                    Grid.Column="1"/>
 
-                <Entry Placeholder="Name 2" Text="{Binding UserInfo.Name}"
+                <Entry Placeholder="Name 2" Text="{Binding UserInfo.Name2}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                Margin="20,0"
-                    Grid.Row="5"
+                    Grid.Row="8"
                    Grid.Column="0"/>
 
 
-                <Entry Placeholder="Contact number" Text="{Binding UserInfo.Contactnumber}"
+                <Entry Placeholder="Contact number 2" Text="{Binding UserInfo.Contactnumber2}"
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                Margin="20,0"
-                    Grid.Row="5"
+                    Grid.Row="8"
                    Grid.Column="1"/>
 
-
+                
 
                
                 

@@ -16,36 +16,51 @@ namespace ProjectAssessment.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-
-        private IDatabase _database;
         private IUserProfile _userProfile;
-        // private IUserProfile userProfile;
+       //public Login LoginDetails _database {get; set; }
+        private IDatabase _database;
+       
 
-        //private User _userInfo;
-        //private User UserInfo
-        //{
-        //    get { return _userInfo; }
-        //    set { SetProperty(ref _userInfo, value); }
-        //}
-
-        public User UserInfo { get; set; }
+    private DelegateCommand _loginCommand;
+    public DelegateCommand LoginCommand =>
+        _loginCommand ?? (_loginCommand = new DelegateCommand(ExecuteLoginCommand));
 
 
-        //private ISecurityService _securityService;
-        // private IEventAggregator _eventAggregator;
 
-         public INavigationService NavigationService;
+  
+    public bool PasswExist { get; set; }
+    public List<User> CustomerDetails { get; set; }
 
-        private DelegateCommand _loginCommand;
-        public DelegateCommand LoginCommand =>
-            _loginCommand ?? (_loginCommand = new DelegateCommand(ExecuteLoginCommand));
+    private IPageDialogService _dialogService;
+    private IDatabase database;
+    private IPageDialogService pageDialogService;
+    private object navigationService;
 
-        public bool PasswExist { get; set; }
-        public List<User> CustomerDetails { get; set; }
+    public User UserInfo { get; set; }
+    public User Access { get; set; }
 
-        private IPageDialogService _dialogService;
-        public User Access { get; set; }
-        private object navigationService;
+    //private User _userInfo;
+    // private IUserProfile userProfile;
+
+
+    //private User UserInfo
+    //{
+    //    get { return _userInfo; }
+    //    set { SetProperty(ref _userInfo, value); }
+    //}
+
+
+
+
+    ////private ISecurityService _securityService;
+    // private IEventAggregator _eventAggregator;
+
+    // public INavigationService NavigationService;
+
+
+
+   
+        //private object navigationService;
 
         public LoginViewModel(INavigationService navigationService, IDatabase database, IPageDialogService pageDialogService, IUserProfile userProfile) : base(navigationService)
         {
@@ -68,7 +83,7 @@ namespace ProjectAssessment.ViewModels
         private async void ExecuteLoginCommand()
         {
             var knownUser = await _database.GetUserByUserName(UserInfo.Username);
-            var Infor = UserInfo;
+           // var Infor = UserInfo;
 
             if (UserInfo.Username == null)
             {
@@ -101,8 +116,8 @@ namespace ProjectAssessment.ViewModels
                 }
                 //if (loginResult)
                 //{
-                //    _eventAggregator.GetEvent<LoginMessage>().Publish(userProfile);
-                //    await NavigationService.NavigateAsync("Login");
+                //   _eventAggregator.GetEvent<LoginMessage>().Publish(userProfile);
+                //   await NavigationService.NavigateAsync("Login");
 
                 //}
             }

@@ -1,8 +1,10 @@
 ﻿using Prism.Commands;
+using Prism.Events;
 using Prism.Mvvm;
 using Prism.Navigation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 
@@ -10,6 +12,9 @@ namespace ProjectAssessment.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
+        private DelegateCommand _forgotyourPasswordCommand;
+        private IEventAggregator _eventAggregator;
+
         //button for logging in
         private DelegateCommand _loginCommand;
         public DelegateCommand LoginCommand =>
@@ -29,7 +34,7 @@ namespace ProjectAssessment.ViewModels
 
         public async void ExecuteLoginCommand()
         {
-            await NavigationService.NavigateAsync("MasterDetail/NavigationPage/LoginCopy");
+            await NavigationService.NavigateAsync("Login");
            // await NavigationService.NavigateAsync("Login");
 
         }
@@ -38,6 +43,28 @@ namespace ProjectAssessment.ViewModels
         public MainPageViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Main Page";
+        }
+        public Action DisplayInvalidLoginPrompt;
+        public event PropertyChangedEventHandler PropertyChanged = delegate { };
+        private string email;
+        public string Email
+        {
+            get { return email; }
+            set
+            {
+                email = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("Email"));
+            }
+        }
+        private string password;
+        public string Password
+        {
+            get { return password; }
+            set
+            {
+                password = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("Password"));
+            }
         }
     }
 }

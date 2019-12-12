@@ -1,5 +1,6 @@
 ﻿using Prism;
 using Prism.Ioc;
+using ProjectAssessment.Model.Security;
 using ProjectAssessment.Services;
 using ProjectAssessment.Services.Interfaces;
 using ProjectAssessment.ViewModels;
@@ -33,12 +34,14 @@ namespace ProjectAssessment
             containerRegistry.RegisterSingleton<ISecurityService, FakeSecurityService>();
 
             containerRegistry.RegisterSingleton<IDatabase, SafetyDatabase>();
+            containerRegistry.RegisterSingleton<IUserProfile, UserProfile>();
+
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
 
             containerRegistry.RegisterForNavigation<CreateAnAccount, CreateAnAccountViewModel>();
-            containerRegistry.RegisterForNavigation<Login, LoginViewModel>();
+            containerRegistry.RegisterForNavigation<ProjectAssessment.Views.Login, LoginViewModel>();
 
             containerRegistry.RegisterForNavigation<MasterDetail, MasterDetailViewModel>();
             containerRegistry.RegisterForNavigation<Profile, ProfileViewModel>();
@@ -46,7 +49,6 @@ namespace ProjectAssessment
             containerRegistry.RegisterForNavigation<Circle, CircleViewModel>();
             containerRegistry.RegisterForNavigation<PanicAlert, PanicAlertViewModel>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
-            containerRegistry.RegisterForNavigation<LoginCopy, LoginCopyViewModel>();
         }
     }
 }

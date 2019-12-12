@@ -24,7 +24,7 @@
                HeightRequest="150"
                    BackgroundColor="OrangeRed">-->
 
-                <ImageButton Source="help" Command="{Binding Profile}"
+        <ImageButton Source="PanicAlert" Command="{Binding PanicAlert}"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"
                     BackgroundColor="OrangeRed"/>
