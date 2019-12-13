@@ -10,7 +10,7 @@
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         
-        <Label Text="Location Alert"
+        <Label Text="LOCATION ALERT"
                    TextColor="MediumPurple"
                    FontSize="30"
                    FontAttributes="Bold"
@@ -33,6 +33,8 @@
         <!--</Frame>-->
 
         <Button Text="LOGIN" Command="{Binding LoginCommand}"
+                TextColor="White"
+                    BackgroundColor="Purple"
                     FontSize="Medium"
                     FontAttributes="Bold"
                     />
@@ -40,6 +42,7 @@
 
 
         <Button Text="Create an account" Command="{Binding CreateanaccountCommand}"
+                    BackgroundColor="Transparent"
                     FontSize="Medium"
                     FontAttributes="Bold"
                    />

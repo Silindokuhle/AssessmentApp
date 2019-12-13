@@ -13,6 +13,7 @@
           "Prism.Unity.Forms": "7.2.0.1367",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms.Maps": "4.3.0.991221",
           "sqlite-net-pcl": "1.6.292"
         },
         "runtime": {
@@ -158,6 +159,17 @@
             "fileVersion": "4.3.0.389"
           }
         }
+      },
+      "Xamarin.Forms.Maps/4.3.0.991221": {
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991221"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.3.0.389"
+          }
+        }
       }
     }
   },
@@ -264,6 +276,13 @@
       "sha512": "sha512-Yh3kxXj+fnERLZfh8gNbcFWflSL0PvPh3aHtq2tpXInInVNeWDUb0qitChUm2hgJSSOpn3MBa/55nxcqPM4Kog==",
       "path": "xamarin.forms/4.3.0.991221",
       "hashPath": "xamarin.forms.4.3.0.991221.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.3.0.991221": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DU8xOje7jO2Ed90bNb7/BofjRi6QOQ4XXEStDd85ooGhFdd82MZ99ilnFKNljl7WI/r0XSZWKab2SKDiG5XSUg==",
+      "path": "xamarin.forms.maps/4.3.0.991221",
+      "hashPath": "xamarin.forms.maps.4.3.0.991221.nupkg.sha512"
     }
   }
 }

@@ -18,8 +18,8 @@ namespace ProjectAssessment.ViewModels
         public async void ExecutePanicAlert()
         {
             var contactNumbers = new List<string>();
-            contactNumbers.Add("0718980404");
-            contactNumbers.Add("0638771175");
+            contactNumbers.Add("0825896944");
+            contactNumbers.Add("0833677168");
             contactNumbers.Add("0639620424");
             contactNumbers.Add("0793709715");
             await SendSms("I need Help, I'm in Danger", contactNumbers.ToArray());

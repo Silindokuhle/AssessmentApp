@@ -2,11 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
+             xmlns:maps="clr-namespace:Xamarin.Essentials;assembly=Xamarin.Essentials"
+             xmlns:custommaps="clr-namespace:ProjectAssessment.Controls.Maps"
+             xmlns:custommaps1="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="ProjectAssessment.Views.Locations">
 
-   
-        <StackLayout>
+
+    <!--<Grid Margin="10,35,10,10">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <custommaps:CustomMap x:Name="map"
+                  ItemsSource="{Binding Locations}" CenterRegion="{Binding CenterPosition}">
+            <custommaps1:Map.ItemTemplate>
+                <DataTemplate>
+                    <custommaps:CustomPin Position="{Binding Position}"
+                              Address="{Binding Address}"
+                              Label="{Binding Description}"
+                                    Name="{Binding PlaceName}"   
+                                          Url="{Binding Url}"/>
+                </DataTemplate>
+            </custommaps1:Map.ItemTemplate>
+        </custommaps:CustomMap>
+    </Grid>-->
+
+
+
+
+
+    <StackLayout>
         <FlexLayout>
             <Image Source="location"/>
             <Label Text="       MY  LOCATIONS"   
@@ -14,7 +40,7 @@
                    FontSize="50"
                    TextColor="Black"/>
         </FlexLayout>
-            
+
         <FlexLayout>
             <Image Source="home"/>
             <Label Text="    Home"
@@ -23,10 +49,10 @@
         <FlexLayout>
 
             <Image Source="box"/>
-        <Label Text="    Work"
+            <Label Text="    Work"
                     Margin="0,20,0,0"/>
         </FlexLayout>
-            
+
         <FlexLayout>
 
             <Image Source=""/>
@@ -35,57 +61,4 @@
         </FlexLayout>
 
     </StackLayout>
-
-
-
-
-
- 
-
-
-    <!--<StackLayout>--><!--
-        <FlexLayout>
-            <Image Source="location"
-                   --><!--HorizontalOptions="Center"--><!--
-                   Margin="40,20,0,0"/>
-
-            <Label Text="Locations"
-                   TextColor="Black"
-                   HorizontalOptions="Center" 
-                   FontAttributes="Bold"
-                   FontSize="Large"
-                   Margin="40,20,0,0"/>
-        </FlexLayout>
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-            </Grid.RowDefinitions>
-
-            <Entry Placeholder="Home"
-                   HorizontalOptions="Start"
-                   Grid.Row="1"/>-->
-           
-
-            <!--<Label Text="Work"
-                   HorizontalOptions="Start"
-                   Grid.Row="2"/>
-
-            <Label Text="Frequently visited"
-                   HorizontalOptions="Start"
-                   Grid.Row="3"/>-->
-
-
-
-
-
-
-
-
-
-        <!--</Grid>
-    </StackLayout>-->
 </ContentPage>

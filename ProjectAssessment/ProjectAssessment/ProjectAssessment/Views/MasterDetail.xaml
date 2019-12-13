@@ -6,7 +6,9 @@
                   xmlns:converters="clr-namespace:ProjectAssessment.Converters"
                   prism:ViewModelLocator.AutowireViewModel="True"
                   x:Class="ProjectAssessment.Views.MasterDetail"
-                  BackgroundColor="White">
+                  BackgroundColor="White"
+                                BackgroundImageSource="bb">
+    
     
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">

@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="ProjectAssessment.Views.Login">
+             x:Class="ProjectAssessment.Views.Login"
+             BackgroundImageSource="bb">
+    
 
     <StackLayout>
         <FlexLayout>
@@ -27,11 +29,12 @@
         <FlexLayout>
             <Entry Placeholder="Username" Text="{Binding UserInfo.Username}"
                 PlaceholderColor="Black"
+                   WidthRequest="150"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
                 Margin="50,60"/>
             <Image Source="username"
-                   Margin="100,0"/>
+                   Margin="50,0"/>
         </FlexLayout>
             
         <FlexLayout>
@@ -39,9 +42,11 @@
                PlaceholderColor="Black"
                HorizontalOptions="StartAndExpand"
                    TextColor="Black" 
-               Margin="50,0"/>
+                WidthRequest="150"
+               Margin="50,0"
+               IsPassword="True"/>
             <Image Source="lock"
-                    Margin="100,0"/>
+                    Margin="50,0"/>
 
         </FlexLayout>
         <Button Text="Forgot Password?" Command="{Binding ForgotPasswordCommand}"

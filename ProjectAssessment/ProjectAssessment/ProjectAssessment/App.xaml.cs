@@ -32,6 +32,7 @@ namespace ProjectAssessment
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<ISecurityService, FakeSecurityService>();
+            //containerRegistry.RegisterSingleton<IMapping, MappingService>();
 
             containerRegistry.RegisterSingleton<IDatabase, SafetyDatabase>();
             containerRegistry.RegisterSingleton<IUserProfile, UserProfile>();
@@ -45,7 +46,7 @@ namespace ProjectAssessment
 
             containerRegistry.RegisterForNavigation<MasterDetail, MasterDetailViewModel>();
             containerRegistry.RegisterForNavigation<Profile, ProfileViewModel>();
-            containerRegistry.RegisterForNavigation<Locations, LocationsViewModel>();
+           // containerRegistry.RegisterForNavigation<Locations, LocationsViewModel>();
             containerRegistry.RegisterForNavigation<Circle, CircleViewModel>();
             containerRegistry.RegisterForNavigation<PanicAlert, PanicAlertViewModel>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();

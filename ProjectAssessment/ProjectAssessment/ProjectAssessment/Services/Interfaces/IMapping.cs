@@ -7,9 +7,9 @@ using System.Linq;
 
 namespace ProjectAssessment.Services.Interfaces
 {
-    public interface IMapping 
-    {
-       // Location GetNewLocation();
+    //public interface IMapping 
+    //{
+    //    Location GetNewLocation();
 
-    }
+   // }
 }

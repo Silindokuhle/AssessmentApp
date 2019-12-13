@@ -103,8 +103,7 @@ namespace ProjectAssessment.ViewModels
                 {
                     PasswExist = true;
                     _userProfile.SetLoggedinUser(knownUser);
-                    await NavigationService.NavigateAsync("Profile");
-                    return;
+                    await NavigationService.NavigateAsync("MasterDetail/NavigationPage/Profile", useModalNavigation: true); return;
                 }
                 else
                 {
@@ -114,10 +113,10 @@ namespace ProjectAssessment.ViewModels
                 {
                     await _dialogService.DisplayAlertAsync("ALERT!", "Incorrect password, please try again", "ok");
                 }
-                //if (loginResult)
+                //if (loginresult)
                 //{
-                //   _eventAggregator.GetEvent<LoginMessage>().Publish(userProfile);
-                //   await NavigationService.NavigateAsync("Login");
+                //    _eventaggregator.getevent<loginmessage>().publish(userprofile);
+                //    await navigationservice.navigateasync("login");
 
                 //}
             }

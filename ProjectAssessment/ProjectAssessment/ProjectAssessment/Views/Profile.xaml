@@ -35,7 +35,7 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
-                <RowDefinition Height="50"/>
+               
 
 
             </Grid.RowDefinitions>
@@ -55,9 +55,14 @@
 
             <Entry Text="{Binding LoggedInUser.Name1}" Placeholder="Password" Grid.Column="0" Grid.Row="3" TextColor="Black"/>
             <Entry Text="{Binding LoggedInUser.Contactnumber1}" Placeholder="Contactnumber1" Grid.Column="1" Grid.Row="3" TextColor="Black"/>
-           
+
             <Entry Text="{Binding LoggedInUser.Name2}" Placeholder="Name2" Grid.Column="0" Grid.Row="4" TextColor="Black"/>
             <Entry Text="{Binding LoggedInUser.Contactnumber2}" Placeholder="Contactnumber2" Grid.Column="1" Grid.Row="4" TextColor="Black"/>
+        </Grid>
+
+        <Button Text="Save Changes" 
+                Command="{Binding UpdateCommand}"
+                BackgroundColor="MediumPurple"/>
 
             <!--LoggedInUser-->
 
@@ -66,6 +71,5 @@
 
 
 
-        </Grid>
     </StackLayout>
 </ContentPage>
